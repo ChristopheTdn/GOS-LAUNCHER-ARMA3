@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{194F399C-1894-4878-9058-27AC1D1822C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GOSLauncherA3</RootNamespace>
+    <AssemblyName>GOSLauncherA3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>ftp://www.clan-gign.net/GOSLauncherA3/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.clan-gign.net/GOSLauncherA3/</InstallUrl>
+    <SupportUrl>http://www.clan-GOS.fr</SupportUrl>
+    <ProductName>GOS Launcher Arma 3 Edition</ProductName>
+    <PublisherName>Clan G.O.S</PublisherName>
+    <SuiteName>Clan GOS Developpement</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>308</ApplicationRevision>
+    <ApplicationVersion>0.90.0710.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>GOSLauncherA3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BEB7A9DC2B75BD11A981B98C2B2A69E48CFE21AC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GOSLauncherA3.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infralution.Localization, Version=1.2.2.0, Culture=neutral, PublicKeyToken=af4bb5454ff71782, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Infralution.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CallArma3Server.cs" />
+    <Compile Include="Classes\ConfigCpp.cs" />
+    <Compile Include="Classes\GestFile.cs" />
+    <Compile Include="Classes\interclan.cs" />
+    <Compile Include="Classes\Interface.cs" />
+    <Compile Include="Classes\PboFiles.cs" />
+    <Compile Include="Classes\Priority.cs" />
+    <Compile Include="Classes\ProcessSurveillance.cs" />
+    <Compile Include="Classes\ProgExterne.cs" />
+    <Compile Include="Classes\FormSerializer.cs" />
+    <Compile Include="Classes\ResidentAdmin.cs" />
+    <Compile Include="Classes\Rsync.cs" />
+    <Compile Include="Form\DIAL_SynchroMission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DIAL_SynchroMission.Designer.cs">
+      <DependentUpon>DIAL_SynchroMission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Dial_ChangeLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Dial_ChangeLog.Designer.cs">
+      <DependentUpon>Dial_ChangeLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Dial_Unlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Dial_Unlock.Designer.cs">
+      <DependentUpon>Dial_Unlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Dial_DefautLocalisationA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Dial_DefautLocalisationA3.Designer.cs">
+      <DependentUpon>Dial_DefautLocalisationA3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Dial_DefautApparence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Dial_DefautApparence.Designer.cs">
+      <DependentUpon>Dial_DefautApparence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FenetrePrincipale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FenetrePrincipale.Designer.cs">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\GOSLauncher.cs" />
+    <Compile Include="Form\ChoixLangue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ChoixLangue.Designer.cs">
+      <DependentUpon>ChoixLangue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\Dial_ChangeLog.resx">
+      <DependentUpon>Dial_ChangeLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DIAL_SynchroMission.resx">
+      <DependentUpon>DIAL_SynchroMission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Dial_Unlock.en.resx">
+      <DependentUpon>Dial_Unlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Dial_Unlock.resx">
+      <DependentUpon>Dial_Unlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Dial_DefautApparence.en.resx">
+      <DependentUpon>Dial_DefautApparence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Dial_DefautApparence.resx">
+      <DependentUpon>Dial_DefautApparence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Dial_DefautLocalisationA3.resx">
+      <DependentUpon>Dial_DefautLocalisationA3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.de-DE.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.de.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.el-GR.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.en-US.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.en.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.es-ES.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ChoixLangue.resx">
+      <DependentUpon>ChoixLangue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.ru-RU.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\MAK RU Kamish.jpg" />
+    <None Include="Resources\MAK RU Rastr.jpg" />
+    <None Include="Resources\MAK RU Surpat.jpg" />
+    <None Include="Resources\MAK RU VSR.jpg" />
+    <None Include="gfx\camo_image\MAK RU VSR.jpg" />
+    <None Include="gfx\camo_image\MAK RU Kamish.jpg" />
+    <None Include="gfx\camo_image\MAK RU Rastr.jpg" />
+    <None Include="gfx\camo_image\MAK RU Surpat.jpg" />
+    <None Include="gfx\GOSLauncherA3.ico" />
+    <None Include="gfx\logo-gos.png" />
+    <Content Include="GOSLauncherA3.ico" />
+    <Content Include="mikero\DePbo.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mikero\ExtractPboDos.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\cwrsync.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rsync\cygcrypto-1.0.0.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\cyggcc_s-1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\cygiconv-2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\cygssp-0.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\cygwin1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\cygz.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\README.cwrsync.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\README.rsync.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\rsync.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\rsync.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\rsyncd.conf.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\ssh-keygen.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rsync\ssh.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="gfx\point_exclamation.png" />
+    <None Include="gfx\espagne.png" />
+    <None Include="gfx\italie.png" />
+    <None Include="gfx\d7.2.png" />
+    <None Include="gfx\globe.png" />
+    <None Include="gfx\disquette.png" />
+    <None Include="gfx\programme.png" />
+    <None Include="gfx\balle-fermer-cute-stop-icone-4372-64.png" />
+    <None Include="gfx\Ace_logo.jpg" />
+    <None Include="gfx\crochet-ok-oui-icone-5594-64.png" />
+    <None Include="gfx\disque-dur-icone-5993-128.png" />
+    <None Include="gfx\fermer-gtk-icone-6139-128.png" />
+    <None Include="gfx\fleche-cycle-actualisez-icone-7641-64.png" />
+    <None Include="gfx\Hangar.svg.png" />
+    <None Include="gfx\hexa_soldier_radio_mini_art.png" />
+    <None Include="gfx\Island Stone.png" />
+    <None Include="gfx\la-gestion-pouvoir-preferences-systeme-icone-5042-96.png" />
+    <None Include="gfx\list-add-3.png" />
+    <None Include="gfx\mettre-en-favori-favori-etoile-icone-3996-64.png" />
+    <None Include="gfx\solution1.jpg" />
+    <None Include="gfx\teamspeak.png" />
+    <None Include="gfx\ts3.png" />
+    <None Include="gfx\utilisateur-icone-8690-128.png" />
+    <None Include="gfx\Small-logo.jpg" />
+    <None Include="gfx\Projet1.ico" />
+    <None Include="gfx\case-divers-icone-9631-96.png" />
+    <None Include="gfx\winscp.png" />
+    <None Include="gfx\helmet\Viet-Helmet.png" />
+    <None Include="gfx\helmet\DIGIT-Helmet.png" />
+    <None Include="gfx\helmet\dttig-Helmet.png" />
+    <None Include="gfx\helmet\next-Helmet.png" />
+    <None Include="gfx\logo-fsf.png" />
+    <None Include="dll\Infralution.Localization.dll" />
+    <Content Include="gfx\ajouter-vert-plus-icone-9105-128.png" />
+    <None Include="gfx\ajouterListe.png" />
+    <None Include="gfx\blasonfsfA3.png" />
+    <None Include="gfx\france.png" />
+    <None Include="gfx\allemagne.png" />
+    <None Include="gfx\danger.png" />
+    <None Include="gfx\grece.png" />
+    <None Include="gfx\point_interrogation.png" />
+    <None Include="gfx\FSFLauncherA3.ico" />
+    <None Include="gfx\off.png" />
+    <None Include="gfx\on.png" />
+    <None Include="gfx\camo_image\AlphaOne.jpg" />
+    <None Include="gfx\camo_image\CE desert.jpg" />
+    <None Include="gfx\camo_image\CE mixte.jpg" />
+    <None Include="gfx\camo_image\CE urbain.jpg" />
+    <None Include="gfx\camo_image\CE.jpg" />
+    <None Include="gfx\camo_image\MAK CCE Mixte.jpg" />
+    <None Include="gfx\camo_image\MAK CCE std.jpg" />
+    <None Include="gfx\camo_image\MAK DAG.jpg" />
+    <None Include="gfx\camo_image\MAK DPM ARID.jpg" />
+    <None Include="gfx\camo_image\MAK DPM TROPIC.jpg" />
+    <None Include="gfx\camo_image\CE Standard.jpg" />
+    <None Include="gfx\camo_image\MAK Tiger Golden.jpg" />
+    <None Include="gfx\camo_image\MAK Tiger Green.jpg" />
+    <Content Include="gfx\profil.png" />
+    <None Include="gfx\royaumeunis.png" />
+    <None Include="gfx\russe.png" />
+    <None Include="gfx\splascreen.png" />
+    <None Include="gfx\splashscreen.png" />
+    <None Include="gfx\TaskForceRadio.png" />
+    <Content Include="Projet1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

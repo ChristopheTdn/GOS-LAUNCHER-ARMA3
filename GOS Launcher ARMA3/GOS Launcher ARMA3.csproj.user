@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://www.clan-gign.net/GOSLauncherA3/|ftp://www.clan-gign.net/FSFLauncherA3/|ftp://www.clan-gign.net/www/FSFLauncherA3/</PublishUrlHistory>
+    <InstallUrlHistory>http://www.clan-gign.net/GOSLauncherA3/|http://www.clan-gign.net/FSFLauncherA3/</InstallUrlHistory>
+    <SupportUrlHistory>http://www.clan-fsf.fr</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>https://code.google.com/p/fsf-launcher-a3/issues/list</ErrorReportUrlHistory>
+    <FallbackCulture>fr-FR</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>
+    </StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>-test</StartArguments>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
