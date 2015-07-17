@@ -20,7 +20,7 @@ namespace GOSLauncherA3
         private void Dial_ChangeLog_Load(object sender, EventArgs e)
         {
             WebClient client = new WebClient ();
-            string reply = client.DownloadString ("http://www.clan-GOS.fr/synchro/Organisation.txt");
+            string reply = client.DownloadString ("http://www.clan-GOS.fr/synchro/changelog.txt");
             richTextBox1.Text = reply;
         }
     }

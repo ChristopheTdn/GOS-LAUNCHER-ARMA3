@@ -1498,7 +1498,7 @@
             // pictureBox13
             // 
             resources.ApplyResources(this.pictureBox13, "pictureBox13");
-            this.pictureBox13.Image = global::GOSLauncherA3.Properties.Resources.blasonGOSA3;
+            this.pictureBox13.Image = global::GOSLauncherA3.Properties.Resources.logoGOS;
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.TabStop = false;
             // 

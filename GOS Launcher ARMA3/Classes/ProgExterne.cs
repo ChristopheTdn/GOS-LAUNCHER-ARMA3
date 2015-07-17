@@ -124,8 +124,18 @@ namespace GOSLauncherA3
                 {
                     try
                     {
-                        GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\3.0.16\TeamSpeak3\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\");
+                        // Test a supprimer dans les versions Futures (juste pendant la migration FSF > GOS
+                        if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\FSF-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\ts3client_win64.exe"))
+                        {
+                            GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\userconfig\FSF-LauncherA3\TeamSpeak3TaskForce3016\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\");
+                        }
+                        else
+                        {
+                            GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\3.0.16\TeamSpeak3\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\");
+                        };
+                        // Fin TEST
                         GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\");
+
                         if (!File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\task_force_radio\radio_keys.hpp"))
                         {
                             GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\userconfig\task_force_radio\", GOSLauncherCore.cheminARMA3 + @"\userconfig\");
@@ -195,7 +205,7 @@ namespace GOSLauncherA3
                 ts3TaskForce.StartInfo.UseShellExecute = true;
                 ts3TaskForce.StartInfo.Verb = "runas";
                 ts3TaskForce.StartInfo.FileName = GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\ts3client_win64.exe";
-                ts3TaskForce.StartInfo.Arguments = "ts3server://91.121.94.15?password=welcome";
+                ts3TaskForce.StartInfo.Arguments = "ts3server://ts3.clan-gos.fr?password=welcome";
                 //ts3TaskForce.StartInfo.CreateNoWindow = true;
                 ts3TaskForce.Start();
             }

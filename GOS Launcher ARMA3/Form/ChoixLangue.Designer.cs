@@ -78,7 +78,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GOSLauncherA3.Properties.Resources.blasonGOSA3;
+            this.pictureBox1.Image = global::GOSLauncherA3.Properties.Resources.logoGOS;
             this.pictureBox1.Location = new System.Drawing.Point(13, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(80, 85);

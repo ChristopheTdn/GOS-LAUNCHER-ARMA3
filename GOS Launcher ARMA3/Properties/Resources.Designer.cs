@@ -103,16 +103,6 @@ namespace GOSLauncherA3.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blasonGOSA3 {
-            get {
-                object obj = ResourceManager.GetObject("blasonGOSA3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap boite {
             get {
                 object obj = ResourceManager.GetObject("boite", resourceCulture);

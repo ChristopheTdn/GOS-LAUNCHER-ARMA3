@@ -93,8 +93,8 @@ namespace GOSLauncherA3
         static public void DefinitionConstante()
         {
             constCheminFTP = "37.59.36.179";
-            constLoginFTP = "FSFLauncherA3";
-            constMdpFTP = "FSFLauncherA3";
+            constLoginFTP = "goslauncherA3";
+            constMdpFTP = "goslauncherA3";
             repertoireCourant = AppDomain.CurrentDomain.BaseDirectory;
             definirCheminArma3();
             //creation repertoire
@@ -765,7 +765,7 @@ namespace GOSLauncherA3
         #region MOTDEPASSE
         static public bool isGOSValid()
         {
-            if (Encoder(GetKeyValue(@"Software\Clan GOS\GOS Launcher A3\", "UnlockPass")) == "43b97597d8bd45aed49b393fef1223d7")
+            if (Encoder(GetKeyValue(@"Software\Clan GOS\GOS Launcher A3\", "UnlockPass")) == "ca4dfdd5a617f09246d87b33f8e6da95")
             {
                 return true;
             }
