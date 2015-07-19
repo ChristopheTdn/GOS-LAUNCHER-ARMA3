@@ -35,7 +35,7 @@
     <SuiteName>Clan GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>312</ApplicationRevision>
+    <ApplicationRevision>315</ApplicationRevision>
     <ApplicationVersion>0.90.0710.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -275,6 +275,7 @@
     <None Include="gfx\camo_image\MAK RU Surpat.jpg" />
     <None Include="gfx\GOSLauncherA3.ico" />
     <None Include="gfx\logo-gos.png" />
+    <None Include="gfx\logo-goslauncher.png" />
     <Content Include="GOSLauncherA3.ico" />
     <Content Include="mikero\DePbo.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

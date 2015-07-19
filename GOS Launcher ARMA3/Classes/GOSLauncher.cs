@@ -751,8 +751,12 @@ namespace GOSLauncherA3
         static public string serveurSynchroIP()
         {
             string ipserveur = "";
-            if (GOSLauncherCore.fenetrePrincipale.radioButton7.Checked) { ipserveur = "176.31.118.12"; };
-            if (GOSLauncherCore.fenetrePrincipale.radioButton8.Checked) { ipserveur = "37.59.36.179"; };
+            if (GOSLauncherCore.fenetrePrincipale.radioButton7.Checked) {
+                ipserveur = "176.31.118.12";
+            };
+            if (GOSLauncherCore.fenetrePrincipale.radioButton8.Checked) { 
+                ipserveur = "www.clan-gign.net";
+            };
 
             return ipserveur;
         }

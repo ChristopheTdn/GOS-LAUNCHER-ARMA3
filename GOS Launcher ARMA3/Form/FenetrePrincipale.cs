@@ -1307,7 +1307,7 @@ namespace GOSLauncherA3
                     pictureBox1.Image = GOSLauncherA3.Properties.Resources.MAK_RU_Kamish;
                     break;
                 default:
-                    pictureBox1.Image = GOSLauncherA3.Properties.Resources.logoGOS;
+                    pictureBox1.Image = GOSLauncherA3.Properties.Resources.logo_goslauncher;
                     break;
             }
 

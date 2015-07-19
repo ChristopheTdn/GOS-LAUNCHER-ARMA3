@@ -313,6 +313,16 @@ namespace GOSLauncherA3.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_goslauncher {
+            get {
+                object obj = ResourceManager.GetObject("logo_goslauncher", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logoGOS {
             get {
                 object obj = ResourceManager.GetObject("logoGOS", resourceCulture);
