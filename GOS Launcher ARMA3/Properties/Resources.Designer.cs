@@ -383,6 +383,26 @@ namespace GOSLauncherA3.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MAK_Leopard_A {
+            get {
+                object obj = ResourceManager.GetObject("MAK_Leopard_A", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MAK_Leopard_F {
+            get {
+                object obj = ResourceManager.GetObject("MAK_Leopard_F", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MAK_RU_Kamish {
             get {
                 object obj = ResourceManager.GetObject("MAK_RU_Kamish", resourceCulture);

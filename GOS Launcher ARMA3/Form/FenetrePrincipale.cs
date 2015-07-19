@@ -1306,6 +1306,12 @@ namespace GOSLauncherA3
                 case "RU_KAMYSH":
                     pictureBox1.Image = GOSLauncherA3.Properties.Resources.MAK_RU_Kamish;
                     break;
+                case "LEOPARD_A":
+                    pictureBox1.Image = GOSLauncherA3.Properties.Resources.MAK_Leopard_A;
+                    break;
+                case "LEOPARD_F":
+                    pictureBox1.Image = GOSLauncherA3.Properties.Resources.MAK_Leopard_F;
+                    break;
                 default:
                     pictureBox1.Image = GOSLauncherA3.Properties.Resources.logo_goslauncher;
                     break;
