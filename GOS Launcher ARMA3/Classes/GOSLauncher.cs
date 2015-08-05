@@ -638,9 +638,9 @@ namespace GOSLauncherA3
             {
                 fenetrePrincipale.button1.Enabled = false;
                 generationLigneArguments(serveur);
-                if (serveur == "newofficiel") { serveur = @"-connect=37.59.52.201 -port=4442 -password=honneur "; };
-                if (serveur == "newmapping") { serveur = @"-connect=37.59.52.201 -port=3302 -password=patrie "; };
-                if (serveur == "public") { serveur = @"-connect=37.59.52.201 -port=2902 -password= "; };
+                if (serveur == "newofficiel") { serveur = @"-connect=188.165.254.11 -port=4442 -password=opex "; };
+                if (serveur == "newmapping") { serveur = @"-connect=188.165.254.11 -port=3302 -password=patrie "; };
+                if (serveur == "public") { serveur = @" "; };
                 if (serveur == "interclan") { serveur = @"-connect=" + GOSLauncherCore.fenetrePrincipale.textBox10.Text + " -port=" + GOSLauncherCore.fenetrePrincipale.textBox17.Text + " -password=" + GOSLauncherCore.fenetrePrincipale.textBox12.Text + " "; };
                 ProgExterne.lancerFraps(); 
                 ProgExterne.lancerTrackIR();
@@ -752,7 +752,7 @@ namespace GOSLauncherA3
         {
             string ipserveur = "";
             if (GOSLauncherCore.fenetrePrincipale.radioButton7.Checked) {
-                ipserveur = "176.31.118.12";
+                ipserveur = "www.clan-gos.fr";
             };
             if (GOSLauncherCore.fenetrePrincipale.radioButton8.Checked) { 
                 ipserveur = "www.clan-gign.net";

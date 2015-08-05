@@ -357,13 +357,13 @@ namespace GOSLauncherA3
         static public void AfficheMissionServeurMulti()
          {
             // Serveur Officiel
-           genereInfoMapServeur ("Officiel", "37.59.52.201", 4443, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_OFFICIEL, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionOFFICIELLE);
+           genereInfoMapServeur ("Officiel", "188.165.254.11", 4443, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_OFFICIEL, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionOFFICIELLE);
 
             // Serveur Mapping
-           genereInfoMapServeur("Mapping", "37.59.52.201", 3303, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_MAPPING, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionMAPPING);
+           genereInfoMapServeur("Mapping", "188.165.254.11", 3303, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_MAPPING, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionMAPPING);
 
             // Serveur Public
-           genereInfoMapServeur("Public", "37.59.52.201", 2903, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_PUBLIC, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionPUBLIC);
+           //genereInfoMapServeur("Public", "188.165.254.11", 2903, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_PUBLIC, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionPUBLIC);
 
         }
 
