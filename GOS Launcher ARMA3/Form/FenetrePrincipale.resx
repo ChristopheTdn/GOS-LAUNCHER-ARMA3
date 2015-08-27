@@ -8179,6 +8179,9 @@ Arma 3</value>
   <data name="checkBox_SERVEUR_PUBLIC.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="checkBox_SERVEUR_PUBLIC.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="checkBox_SERVEUR_PUBLIC.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 7.25pt, style=Bold</value>
   </data>

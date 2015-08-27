@@ -969,7 +969,10 @@ namespace GOSLauncherA3
                 FileStream fs = File.Create(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\ImportConfigServeurA3.xml");
                 fs.Close();
             }
-            if (checkBox_SERVEUR_MAPPING.Checked || checkBox_SERVEUR_OFFICIEL.Checked || checkBox_SERVEUR_PUBLIC.Checked)             
+            if (
+                false
+                //checkBox_SERVEUR_MAPPING.Checked || checkBox_SERVEUR_OFFICIEL.Checked || checkBox_SERVEUR_PUBLIC.Checked
+                )             
             {                
                 Form dialogue = new DIAL_SynchroMission();
                 dialogue.ShowDialog();
@@ -1321,7 +1324,7 @@ namespace GOSLauncherA3
 
         private void button18_Click_1(object sender, EventArgs e)
         {
-            ProgExterne.ReinstallTS3TaskForce3016();
+            ProgExterne.ReinstallTS3TaskForce();
         }
 
         private void button19_Click_2(object sender, EventArgs e)

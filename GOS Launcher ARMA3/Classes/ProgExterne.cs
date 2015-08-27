@@ -15,7 +15,7 @@ namespace GOSLauncherA3
         {
             ValideFRAPS();
             ValideTRACKIR();
-            ValideTEAMSPEAKTeamForce3016();
+            ValideTEAMSPEAKTeamForce();
         }
 
         // FRAPS
@@ -106,12 +106,12 @@ namespace GOSLauncherA3
         }
 
         // TEAMSPEAK Task Force
-        static public void ValideTEAMSPEAKTeamForce3016()
+        static public void ValideTEAMSPEAKTeamForce()
         {
 
             GOSLauncherCore.fenetrePrincipale.button18.Enabled = false;
             GOSLauncherCore.fenetrePrincipale.button19.Enabled = false;
-            if (testTeamSpeakExistTaskForce3016())
+            if (testTeamSpeakTaskForceExist())
             {
                 GOSLauncherCore.fenetrePrincipale.button18.Enabled = true;
                 GOSLauncherCore.fenetrePrincipale.button19.Enabled = true;
@@ -120,21 +120,11 @@ namespace GOSLauncherA3
             }
             else
             {
-                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\3.0.16\TeamSpeak3\ts3client_win64.exe") && (File.Exists(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\task_force_radio_win64.dll"))) //Si le fichier existe 
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\nouvelleversion\TeamSpeak3\ts3client_win64.exe") && (File.Exists(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\task_force_radio_win64.dll"))) //Si le fichier existe 
                 {
                     try
                     {
-                        // Test a supprimer dans les versions Futures (juste pendant la migration FSF > GOS
-                        if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\FSF-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\ts3client_win64.exe"))
-                        {
-                            GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\userconfig\FSF-LauncherA3\TeamSpeak3TaskForce3016\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\");
-                        }
-                        else
-                        {
-                            GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\3.0.16\TeamSpeak3\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\");
-                        };
-                        // Fin TEST
-                        GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\");
+                        GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\");
 
                         if (!File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\task_force_radio\radio_keys.hpp"))
                         {
@@ -149,11 +139,11 @@ namespace GOSLauncherA3
 
             }
         }
-        static public bool testTeamSpeakExistTaskForce3016()
+        static public bool testTeamSpeakTaskForceExist()
         {
             try
             {
-                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\plugins\task_force_radio_win64.dll"))  //Si le fichier existe 
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\task_force_radio_win64.dll"))  //Si le fichier existe 
                 {
                     return true;
                 }
@@ -180,7 +170,7 @@ namespace GOSLauncherA3
                 // Activation de l'envoi des événements
                 ts3TaskForce.StartInfo.UseShellExecute = true;
                 ts3TaskForce.StartInfo.Verb = "runas";
-                ts3TaskForce.StartInfo.FileName = GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\ts3client_win64.exe";
+                ts3TaskForce.StartInfo.FileName = GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\ts3client_win64.exe";
                 ts3TaskForce.StartInfo.Arguments = "ts3server://" + adresseTEAMSPEAK + "?password=" + passwordTEAMSPEAK;
                 //ts3TaskForce.StartInfo.CreateNoWindow = true;
                 ts3TaskForce.Start();
@@ -204,7 +194,7 @@ namespace GOSLauncherA3
                 // Activation de l'envoi des événements
                 ts3TaskForce.StartInfo.UseShellExecute = true;
                 ts3TaskForce.StartInfo.Verb = "runas";
-                ts3TaskForce.StartInfo.FileName = GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\ts3client_win64.exe";
+                ts3TaskForce.StartInfo.FileName = GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\ts3client_win64.exe";
                 ts3TaskForce.StartInfo.Arguments = "ts3server://ts3.clan-gos.fr?password=welcome";
                 //ts3TaskForce.StartInfo.CreateNoWindow = true;
                 ts3TaskForce.Start();
@@ -215,15 +205,15 @@ namespace GOSLauncherA3
             }
 
         }
-        static public void ReinstallTS3TaskForce3016()
+        static public void ReinstallTS3TaskForce()
         {
             try
             {
-                GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\3.0.16\TeamSpeak3\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\");
-                GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\");
+                GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\nouvelleversion\TeamSpeak3\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\");
+                GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\");
                 GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\userconfig\task_force_radio\", GOSLauncherCore.cheminARMA3 + @"\userconfig\");
   
-                var infoBox = MessageBox.Show("Le TS3 dédié à TASK FORCE RADIO a été reinstallé dans sa version 3.0.16.", "TS3 reinstallé", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                var infoBox = MessageBox.Show("Le TS3 dédié à TASK FORCE RADIO a été reinstallé dans sa derniere version.", "TS3 reinstallé", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch
             {
