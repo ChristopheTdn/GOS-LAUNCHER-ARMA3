@@ -49,13 +49,15 @@ namespace GOSLauncherA3
             initialiseFichierConfig();
             Interface.initialiseListeProfil();
             initialiseProfilActif();
-            configureInstallationMODS();      
+            configureInstallationMODS();
             /* 
                 Organisation INTERFACE
-            */          
+            */
+            //splashscreen.ShowDialog();          
             Interface.dessineInterface();
-            splashscreen.ShowDialog();
-            if (argumentGOSLauncher.Length > 0) ResidentAdmin.initialiseTrayIcon();
+
+            // tray icon
+            //if (argumentGOSLauncher.Length > 0) ResidentAdmin.initialiseTrayIcon();
         }
 
 
@@ -969,28 +971,10 @@ namespace GOSLauncherA3
                 FileStream fs = File.Create(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\ImportConfigServeurA3.xml");
                 fs.Close();
             }
-            if (
-                false
-                //checkBox_SERVEUR_MAPPING.Checked || checkBox_SERVEUR_OFFICIEL.Checked || checkBox_SERVEUR_PUBLIC.Checked
-                )             
-            {                
-                Form dialogue = new DIAL_SynchroMission();
-                dialogue.ShowDialog();
-                if (dialogue.DialogResult == DialogResult.Abort) {
-                    MessageBox.Show("Echec dans l'importation des Mods.", "Importation Liste MODs", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                };
-                if (dialogue.DialogResult == DialogResult.OK)
-                {
-                    genereTabModsImportServeur();
-                    MessageBox.Show("Liste des MODS importée.", "Importation Liste MODs", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                };
-            }
-            else
-            {
                 DownloadConfigServeur("ImportConfigServeurA3.xml", "ftp://37.59.36.179/system/listemod", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\");
                 genereTabModsImportServeur();
                 MessageBox.Show("Liste des MODS importée.", "Importation Liste MODs", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            };
+          
         }
 
         private void button38_Click(object sender, EventArgs e)
@@ -1329,7 +1313,7 @@ namespace GOSLauncherA3
 
         private void button19_Click_2(object sender, EventArgs e)
         {
-            ProgExterne.lancerTeamspeak3TaskForce3016();
+            ProgExterne.lancerTeamspeak3TaskForce();
         }
 
         private void button35_Click(object sender, EventArgs e)
