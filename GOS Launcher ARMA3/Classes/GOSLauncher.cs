@@ -264,7 +264,7 @@ namespace GOSLauncherA3
                 }
             }
             FichierProfilXML.WriteEndElement();
-            //*
+
             //ARMA3 DOCUMENTS OTHER PROFILE
 
             FichierProfilXML.WriteStartElement("DOC_OTHERPROFILE");
@@ -275,10 +275,7 @@ namespace GOSLauncherA3
                     FichierProfilXML.WriteElementString("MODS", fenetrePrincipale.checkedListBox10.CheckedItems[x].ToString());
                 }
             }
-            FichierProfilXML.WriteEndElement();
-             //*/
-
-
+            FichierProfilXML.WriteEndElement();           
             // PARAMETRES
             FichierProfilXML.WriteStartElement("PARAMETRES");
             if (fenetrePrincipale.checkBox9.Checked) { FichierProfilXML.WriteElementString("winXP", "true"); } else { FichierProfilXML.WriteElementString("winXP", ""); }
@@ -293,7 +290,7 @@ namespace GOSLauncherA3
             if (fenetrePrincipale.checkBox12.Checked) { FichierProfilXML.WriteElementString("trackir", "true"); } else { FichierProfilXML.WriteElementString("trackir", ""); }
             if (fenetrePrincipale.checkBox8.Checked) { FichierProfilXML.WriteElementString("noCB", "true"); } else { FichierProfilXML.WriteElementString("noCB", ""); }
             if (fenetrePrincipale.checkBox19.Checked) { FichierProfilXML.WriteElementString("minimize", "true"); } else { FichierProfilXML.WriteElementString("minimize", ""); }
-            if (fenetrePrincipale.checkBox23.Checked) { FichierProfilXML.WriteElementString("noFilePatching", "true"); } else { FichierProfilXML.WriteElementString("noFilePatching", ""); }
+            if (fenetrePrincipale.checkBox23.Checked) { FichierProfilXML.WriteElementString("filePatching", "true"); } else { FichierProfilXML.WriteElementString("filePatching", ""); }
             if (fenetrePrincipale.checkBox22.Checked) { FichierProfilXML.WriteElementString("VideomaxMem", fenetrePrincipale.textBox20.Text); } else { FichierProfilXML.WriteElementString("VideomaxMem", ""); }
             if (fenetrePrincipale.checkBox21.Checked) { FichierProfilXML.WriteElementString("threadMax", fenetrePrincipale.comboBox3.SelectedIndex.ToString()); } else { FichierProfilXML.WriteElementString("threadMax", ""); }
             if (fenetrePrincipale.checkBox24.Checked) { FichierProfilXML.WriteElementString("adminmode", "true"); } else { FichierProfilXML.WriteElementString("adminmode", ""); }
@@ -313,7 +310,7 @@ namespace GOSLauncherA3
             if (fenetrePrincipale.checkBox13.Checked) { FichierProfilXML.WriteElementString("other", fenetrePrincipale.textBox4.Text); } else { FichierProfilXML.WriteElementString("other", ""); }
             if (fenetrePrincipale.checkBox3.Checked) { FichierProfilXML.WriteElementString("windowX", fenetrePrincipale.textBox7.Text); FichierProfilXML.WriteElementString("windowY", fenetrePrincipale.textBox8.Text); } else { FichierProfilXML.WriteElementString("windowX", ""); FichierProfilXML.WriteElementString("windowY", ""); }
             if (fenetrePrincipale.checkBox_EnableHT.Checked) { FichierProfilXML.WriteElementString("enableHT", "true"); } else { FichierProfilXML.WriteElementString("enableHT", ""); }
-
+            if (fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked) {FichierProfilXML.WriteElementString("ARMA3Battleeyes", "true"); } else {FichierProfilXML.WriteElementString("ARMA3Battleeyes", ""); }
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.Flush(); //vide le buffer
@@ -599,7 +596,7 @@ namespace GOSLauncherA3
             if (fenetrePrincipale.checkBox7.Checked) { listArguments += "-cpuCount=" + fenetrePrincipale.textBox6.Text + " "; }
             if (fenetrePrincipale.checkBox8.Checked) { listArguments += "-noCB "; }
             if (fenetrePrincipale.checkBox10.Checked) { listArguments += "-nologs "; }
-            if (fenetrePrincipale.checkBox23.Checked) { listArguments += "-noFilePatching "; }
+            if (fenetrePrincipale.checkBox23.Checked) { listArguments += "-filePatching "; }
             if (fenetrePrincipale.checkBox22.Checked) { listArguments += "-maxVRAM=" + fenetrePrincipale.textBox20.Text + " "; }
             if (fenetrePrincipale.checkBox21.Checked) { listArguments += "-exThreads=" + fenetrePrincipale.comboBox3.Text + " "; }
             if (fenetrePrincipale.checkBox_HeadlessClient.Checked) { listArguments += @"-name=""HeadLess Client"" -localhost=127.0.0.1 -connect=localhost -port="+fenetrePrincipale.textBox2.Text+" -password="+fenetrePrincipale.textBox3.Text+" -client -nosound "; }
@@ -644,11 +641,12 @@ namespace GOSLauncherA3
                 if (serveur == "interclan") { serveur = @"-connect=" + GOSLauncherCore.fenetrePrincipale.textBox10.Text + " -port=" + GOSLauncherCore.fenetrePrincipale.textBox17.Text + " -password=" + GOSLauncherCore.fenetrePrincipale.textBox12.Text + " "; };
                 ProgExterne.lancerFraps(); 
                 ProgExterne.lancerTrackIR();
-
+                string execGAME = "arma3.exe";
+                string paramBE = "";
+                if (fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked) { execGAME = "arma3battleye.exe"; paramBE = " 0 1 "; };
                 // Lancement Jeu
-
                 reductionFenetreOnLaunch();
-                new ProcessSurveillance(GOSLauncherCore.cheminARMA3 + @"\arma3.exe ",serveur + listArguments);
+                new ProcessSurveillance(GOSLauncherCore.cheminARMA3 + @"\"+execGAME, serveur + listArguments);
             }
             else
             {
@@ -769,10 +767,11 @@ namespace GOSLauncherA3
         #region MOTDEPASSE
         static public bool isGOSValid()
         {
+            
             if (Encoder(GetKeyValue(@"Software\Clan GOS\GOS Launcher A3\", "UnlockPass")) == "ca4dfdd5a617f09246d87b33f8e6da95")
             {
                 return true;
-            }
+            };
             return false;
 
         }

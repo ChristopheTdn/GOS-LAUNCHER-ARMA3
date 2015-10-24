@@ -644,7 +644,7 @@ what you're doing.</value>
     <value>189, 17</value>
   </data>
   <data name="checkBox23.Text" xml:space="preserve">
-    <value>Only PBO files (-noFilePatching)</value>
+    <value>Only PBO files (-filePatching)</value>
   </data>
   <data name="checkBox8.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 17</value>

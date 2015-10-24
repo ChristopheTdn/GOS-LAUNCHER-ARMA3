@@ -308,6 +308,7 @@
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
             this.cultureManager1 = new Infralution.Localization.CultureManager(this.components);
+            this.checkBox_ARMA3BattleyeOption = new System.Windows.Forms.CheckBox();
             this.tabControl2.SuspendLayout();
             this.ModsGOS.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -2488,10 +2489,20 @@
             // 
             this.cultureManager1.ManagedControl = this;
             // 
+            // checkBox_ARMA3BattleyeOption
+            // 
+            resources.ApplyResources(this.checkBox_ARMA3BattleyeOption, "checkBox_ARMA3BattleyeOption");
+            this.checkBox_ARMA3BattleyeOption.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.checkBox_ARMA3BattleyeOption.Name = "checkBox_ARMA3BattleyeOption";
+            this.checkBox_ARMA3BattleyeOption.Tag = "";
+            this.toolTip1.SetToolTip(this.checkBox_ARMA3BattleyeOption, resources.GetString("checkBox_ARMA3BattleyeOption.ToolTip"));
+            this.checkBox_ARMA3BattleyeOption.UseVisualStyleBackColor = true;
+            // 
             // FenetrePrincipale
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.checkBox_ARMA3BattleyeOption);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox3);
@@ -2874,6 +2885,7 @@
         internal System.Windows.Forms.TextBox textBox_nomMissionPUBLIC;
         internal System.Windows.Forms.TextBox textBox_nomMissionMAPPING;
         internal System.Windows.Forms.TextBox textBox_nomMissionOFFICIELLE;
+        internal System.Windows.Forms.CheckBox checkBox_ARMA3BattleyeOption;
     }
 }
 

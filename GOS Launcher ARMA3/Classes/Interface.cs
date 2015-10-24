@@ -44,6 +44,7 @@ namespace GOSLauncherA3
             {
                 GOSLauncherCore.fenetrePrincipale.tabControl2.TabPages.Remove(GOSLauncherCore.fenetrePrincipale.ModsGOS);
                 GOSLauncherCore.fenetrePrincipale.tabControl2.TabPages.Remove(GOSLauncherCore.fenetrePrincipale.SynchroZONE);
+                GOSLauncherCore.fenetrePrincipale.tabControl2.TabPages.Remove(GOSLauncherCore.fenetrePrincipale.Interclan_Info);
                 GOSLauncherCore.fenetrePrincipale.pictureBox6.Visible = false;
                 GOSLauncherCore.fenetrePrincipale.pictureBox36.Visible = false;
                 GOSLauncherCore.fenetrePrincipale.button39.Visible = false;
@@ -130,6 +131,7 @@ namespace GOSLauncherA3
             GOSLauncherCore.fenetrePrincipale.checkBox21.Checked = false;
             GOSLauncherCore.fenetrePrincipale.checkBox10.Checked = false;
             GOSLauncherCore.fenetrePrincipale.checkBox24.Checked = false;
+            GOSLauncherCore.fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked = false;
             GOSLauncherCore.fenetrePrincipale.checkBox_HeadlessClient.Checked = false;
             GOSLauncherCore.fenetrePrincipale.checkBox_EnableHT.Checked = false;
             GOSLauncherCore.fenetrePrincipale.textBox2.Text = "";
@@ -173,7 +175,7 @@ namespace GOSLauncherA3
                 if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox8.Checked = true; }
                 fichierProfilXML.ReadToFollowing("minimize");
                 if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox19.Checked = true; }
-                fichierProfilXML.ReadToFollowing("noFilePatching");
+                fichierProfilXML.ReadToFollowing("filePatching");
                 if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox23.Checked = true; }
                 fichierProfilXML.ReadToFollowing("VideomaxMem");
                 string Videomaxmem = fichierProfilXML.ReadString();
@@ -208,7 +210,8 @@ namespace GOSLauncherA3
                 }
                 fichierProfilXML.ReadToFollowing("enableHT");
                 if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox_EnableHT.Checked = true; }
-
+                fichierProfilXML.ReadToFollowing("ARMA3Battleeyes");
+                if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked = true; }
             }
             fichierProfilXML.Close();
         }

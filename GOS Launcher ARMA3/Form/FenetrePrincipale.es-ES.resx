@@ -597,7 +597,7 @@ solo si sabes lo que haces</value>
     <value>Solo archivos PBO</value>
   </data>
   <data name="checkBox23.ToolTip" xml:space="preserve">
-    <value>:Usar el comando -noFilePatching</value>
+    <value>:Usar el comando -filePatching</value>
   </data>
   <data name="checkBox8.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 17</value>

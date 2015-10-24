@@ -27,7 +27,7 @@ namespace GOSLauncherA3
             }
              
             myProcess.StartInfo.FileName = ligneCmd;
-            myProcess.StartInfo.Arguments = param;
+            myProcess.StartInfo.Arguments = "0 1 "+param;
             myProcess.Start();
         }
 

@@ -120,23 +120,20 @@ namespace GOSLauncherA3
             }
             else
             {
-             try
-                    {
-                    // a effacer dans la prochaine version (test d import ancienne config)
-                    if (Directory.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\config") && !Directory.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\config"))
-                    {
-                        GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\TeamSpeak3\config\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\");
-                        Directory.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3TaskForce3016\", true);
-                    }
 
-                    ReinstallTS3TaskForce();
+                try
+                {
+                    if (GOSLauncherCore.isGOSValid())
+                    {
+                        ReinstallTS3TaskForce();
                         if (!File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\task_force_radio\radio_keys.hpp"))
                         {
                             GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\userconfig\task_force_radio\", GOSLauncherCore.cheminARMA3 + @"\userconfig\");
                         };
-                    }
-                    catch
-                    {
+                    };
+                }
+                catch
+                {
                     var infoBox = MessageBox.Show("TS3 a besoin d'etre a nouveau initialisé. Quittez TEAMSPEAK et relancer le LAUNCHER SVP", "TS3 doit etre réinitialisé", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Application.Exit();
                 }
@@ -213,6 +210,7 @@ namespace GOSLauncherA3
         {
             try
             {
+                
                 GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\nouvelleversion\TeamSpeak3\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\");
                 GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\");
                 GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\userconfig\task_force_radio\", GOSLauncherCore.cheminARMA3 + @"\userconfig\");

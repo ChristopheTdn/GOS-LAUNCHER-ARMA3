@@ -580,7 +580,7 @@
     <value>209, 17</value>
   </data>
   <data name="checkBox23.Text" xml:space="preserve">
-    <value>Μόνο PBO αρχεία (-noFilePatching)</value>
+    <value>Μόνο PBO αρχεία (-filePatching)</value>
   </data>
   <data name="checkBox8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 6.25pt</value>
