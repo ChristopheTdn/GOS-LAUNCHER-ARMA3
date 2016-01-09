@@ -24,7 +24,8 @@ namespace GOSLauncherA3
         static public List<string>ListModsrealUrl= new List<string>();
         static public FenetrePrincipale fenetrePrincipale;
         static public System.Windows.Forms.Timer timerSynchro = new System.Windows.Forms.Timer();
-       
+        static public ezBuildMission ezbm = null;
+
         /*
          *         Config
          */

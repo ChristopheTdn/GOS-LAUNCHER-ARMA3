@@ -21,9 +21,7 @@ namespace GOSLauncherA3
 
         private void FenetrePrincipale_Load(object sender, EventArgs e)
         {        
-            Control.CheckForIllegalCrossThreadCalls = false;
-
-
+            CheckForIllegalCrossThreadCalls = false;
             label8.TextChanged += label8_TextChanged;
             label45.TextChanged += label45_TextChanged;
             label46.TextChanged += label46_TextChanged;
@@ -35,8 +33,9 @@ namespace GOSLauncherA3
             labelSynchronisationInvisible.EnabledChanged += labelSynchronisationInvisible_EnabledChanged;
 
 
-            // PREPARATION INITIALISATION INTERFACE
-            GOSLauncherCore.fenetrePrincipale = this;
+
+        // PREPARATION INITIALISATION INTERFACE
+        GOSLauncherCore.fenetrePrincipale = this;
    
 
             GOSLauncherCore.DefinitionConstante();
@@ -1500,30 +1499,7 @@ namespace GOSLauncherA3
             System.Diagnostics.Process.Start(interclan.url_organisateur);
         }
 
-        private void textBox14_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox16_TextChanged(object sender, EventArgs e)
-        {
-                    }
-
-        private void textBox15_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox16_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label55_Click(object sender, EventArgs e)
-        {
-
-        }
-
+ 
         private void button47_Click(object sender, EventArgs e)
         {
             GOSLauncherA3.ProgExterne.lancerTeamspeak3TaskForceINTERCLAN(textBox15.Text,textBox16.Text);
@@ -1559,6 +1535,28 @@ namespace GOSLauncherA3
                 checkBox_SERVEUR_OFFICIEL.Checked = false;
                 checkBox_SERVEUR_MAPPING.Checked = false;
             }
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem == null || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Value.ToString() == "" || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Value.ToString() == "defaut" || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Text.ToString() == (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Text.ToString())
+            {
+                var infoBox = MessageBox.Show("Impossible de renommer ce profil si il est celui par defaut ou celui actif.", "Erreur renommage profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+            }
+        }
+
+        private void tabControl3_Selected(object sender, TabControlEventArgs e)
+        {
+            if (GOSLauncherCore.ezbm == null)
+                GOSLauncherCore.ezbm = new ezBuildMission(label44, label56, label57, pictureBox32, comboBox1, comboBox5, textBox19);
+        }
+
+        private void button35_Click_1(object sender, EventArgs e)
+        {
+            GOSLauncherCore.ezbm.saveMission();
         }
     }
 }

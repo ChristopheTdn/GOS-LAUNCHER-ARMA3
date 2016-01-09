@@ -136,7 +136,17 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.Mapping = new System.Windows.Forms.TabPage();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.button35 = new System.Windows.Forms.Button();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.profil = new System.Windows.Forms.TabPage();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -287,6 +297,7 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.checkBox_ARMA3BattleyeOption = new System.Windows.Forms.CheckBox();
             this.button39 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
@@ -308,7 +319,6 @@
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
             this.cultureManager1 = new Infralution.Localization.CultureManager(this.components);
-            this.checkBox_ARMA3BattleyeOption = new System.Windows.Forms.CheckBox();
             this.tabControl2.SuspendLayout();
             this.ModsGOS.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -353,7 +363,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.Mapping.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             this.profil.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -1200,12 +1213,14 @@
             // tabControl3
             // 
             this.tabControl3.Controls.Add(this.progExterne);
+            this.tabControl3.Controls.Add(this.Mapping);
             this.tabControl3.Controls.Add(this.profil);
             this.tabControl3.Controls.Add(this.Langage);
             this.tabControl3.Controls.Add(this.Apropos);
             resources.ApplyResources(this.tabControl3, "tabControl3");
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
+            this.tabControl3.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControl3_Selected);
             // 
             // progExterne
             // 
@@ -1279,9 +1294,69 @@
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
+            // Mapping
+            // 
+            this.Mapping.BackColor = System.Drawing.Color.Gainsboro;
+            this.Mapping.Controls.Add(this.pictureBox32);
+            this.Mapping.Controls.Add(this.textBox19);
+            this.Mapping.Controls.Add(this.label57);
+            this.Mapping.Controls.Add(this.label56);
+            this.Mapping.Controls.Add(this.label44);
+            this.Mapping.Controls.Add(this.button35);
+            this.Mapping.Controls.Add(this.comboBox5);
+            this.Mapping.Controls.Add(this.comboBox1);
+            resources.ApplyResources(this.Mapping, "Mapping");
+            this.Mapping.Name = "Mapping";
+            // 
+            // pictureBox32
+            // 
+            resources.ApplyResources(this.pictureBox32, "pictureBox32");
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.TabStop = false;
+            // 
+            // textBox19
+            // 
+            resources.ApplyResources(this.textBox19, "textBox19");
+            this.textBox19.Name = "textBox19";
+            // 
+            // label57
+            // 
+            resources.ApplyResources(this.label57, "label57");
+            this.label57.Name = "label57";
+            // 
+            // label56
+            // 
+            resources.ApplyResources(this.label56, "label56");
+            this.label56.Name = "label56";
+            // 
+            // label44
+            // 
+            resources.ApplyResources(this.label44, "label44");
+            this.label44.Name = "label44";
+            // 
+            // button35
+            // 
+            resources.ApplyResources(this.button35, "button35");
+            this.button35.Name = "button35";
+            this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click_1);
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox5, "comboBox5");
+            this.comboBox5.Name = "comboBox5";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.Name = "comboBox1";
+            // 
             // profil
             // 
             this.profil.BackColor = System.Drawing.Color.Gainsboro;
+            this.profil.Controls.Add(this.pictureBox31);
             this.profil.Controls.Add(this.pictureBox21);
             this.profil.Controls.Add(this.label18);
             this.profil.Controls.Add(this.label5);
@@ -1292,6 +1367,15 @@
             this.profil.Controls.Add(this.pictureBox4);
             resources.ApplyResources(this.profil, "profil");
             this.profil.Name = "profil";
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Image = global::GOSLauncherA3.Properties.Resources.rename;
+            resources.ApplyResources(this.pictureBox31, "pictureBox31");
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox31, resources.GetString("pictureBox31.ToolTip"));
+            this.pictureBox31.Click += new System.EventHandler(this.pictureBox31_Click);
             // 
             // pictureBox21
             // 
@@ -2205,14 +2289,12 @@
             resources.ApplyResources(this.textBox16, "textBox16");
             this.textBox16.Name = "textBox16";
             this.textBox16.ReadOnly = true;
-            this.textBox16.TextChanged += new System.EventHandler(this.textBox16_TextChanged_1);
             // 
             // textBox15
             // 
             resources.ApplyResources(this.textBox15, "textBox15");
             this.textBox15.Name = "textBox15";
             this.textBox15.ReadOnly = true;
-            this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
             // 
             // textBox13
             // 
@@ -2225,7 +2307,6 @@
             resources.ApplyResources(this.textBox14, "textBox14");
             this.textBox14.Name = "textBox14";
             this.textBox14.ReadOnly = true;
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
             // 
             // textBox9
             // 
@@ -2236,7 +2317,6 @@
             // 
             resources.ApplyResources(this.label55, "label55");
             this.label55.Name = "label55";
-            this.label55.Click += new System.EventHandler(this.label55_Click);
             // 
             // label54
             // 
@@ -2358,6 +2438,15 @@
             this.checkBox24.Tag = "";
             this.toolTip1.SetToolTip(this.checkBox24, resources.GetString("checkBox24.ToolTip"));
             this.checkBox24.UseVisualStyleBackColor = true;
+            // 
+            // checkBox_ARMA3BattleyeOption
+            // 
+            resources.ApplyResources(this.checkBox_ARMA3BattleyeOption, "checkBox_ARMA3BattleyeOption");
+            this.checkBox_ARMA3BattleyeOption.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.checkBox_ARMA3BattleyeOption.Name = "checkBox_ARMA3BattleyeOption";
+            this.checkBox_ARMA3BattleyeOption.Tag = "";
+            this.toolTip1.SetToolTip(this.checkBox_ARMA3BattleyeOption, resources.GetString("checkBox_ARMA3BattleyeOption.ToolTip"));
+            this.checkBox_ARMA3BattleyeOption.UseVisualStyleBackColor = true;
             // 
             // button39
             // 
@@ -2489,15 +2578,6 @@
             // 
             this.cultureManager1.ManagedControl = this;
             // 
-            // checkBox_ARMA3BattleyeOption
-            // 
-            resources.ApplyResources(this.checkBox_ARMA3BattleyeOption, "checkBox_ARMA3BattleyeOption");
-            this.checkBox_ARMA3BattleyeOption.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.checkBox_ARMA3BattleyeOption.Name = "checkBox_ARMA3BattleyeOption";
-            this.checkBox_ARMA3BattleyeOption.Tag = "";
-            this.toolTip1.SetToolTip(this.checkBox_ARMA3BattleyeOption, resources.GetString("checkBox_ARMA3BattleyeOption.ToolTip"));
-            this.checkBox_ARMA3BattleyeOption.UseVisualStyleBackColor = true;
-            // 
             // FenetrePrincipale
             // 
             resources.ApplyResources(this, "$this");
@@ -2564,8 +2644,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.Mapping.ResumeLayout(false);
+            this.Mapping.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             this.profil.ResumeLayout(false);
             this.profil.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -2886,6 +2970,16 @@
         internal System.Windows.Forms.TextBox textBox_nomMissionMAPPING;
         internal System.Windows.Forms.TextBox textBox_nomMissionOFFICIELLE;
         internal System.Windows.Forms.CheckBox checkBox_ARMA3BattleyeOption;
+        internal System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.TabPage Mapping;
+        internal System.Windows.Forms.ComboBox comboBox1;
+        internal System.Windows.Forms.Button button35;
+        internal System.Windows.Forms.ComboBox comboBox5;
+        internal System.Windows.Forms.Label label57;
+        internal System.Windows.Forms.Label label56;
+        internal System.Windows.Forms.Label label44;
+        internal System.Windows.Forms.TextBox textBox19;
+        internal System.Windows.Forms.PictureBox pictureBox32;
     }
 }
 
