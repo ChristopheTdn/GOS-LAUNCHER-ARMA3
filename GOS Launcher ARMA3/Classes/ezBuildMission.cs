@@ -53,6 +53,7 @@ namespace GOSLauncherA3
             mainPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\Arma 3 - Other Profiles";
             string[] SubDirs = Directory.GetDirectories(mainPath);
 
+            comboBox2.Items.Add("Défaut");
             foreach (string s in SubDirs)
             {
                 comboBox2.Items.Add(s.Substring(s.LastIndexOf("\\") + 1));
@@ -117,6 +118,7 @@ namespace GOSLauncherA3
             if (dir.Exists)
                 dir.Delete(true);
             string movePath = mainPath + @"\" + comboBox2.SelectedItem.ToString() + @"\missions\" + textBox1.Text + extMap;
+            if (comboBox2.SelectedItem.ToString() == "Défaut") { movePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\Arma 3\missions\" + textBox1.Text + extMap;};
             dir = new DirectoryInfo(movePath);
             if (!dir.Exists)
             {
