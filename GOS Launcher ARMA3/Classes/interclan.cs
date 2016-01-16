@@ -22,7 +22,7 @@ namespace GOSLauncherA3
                         // nom evenement
                         fichierProfilXML.ReadToFollowing("name");
                         string name = fichierProfilXML.ReadString();
-                        if (name != "") { GOSLauncherCore.fenetrePrincipale.textBox13.Text = name;};
+                        if (name != "") { GOSLauncherCore.fenetrePrincipale.textBox13.Text = name; };
                         // date
                         fichierProfilXML.ReadToFollowing("date");
                         string date = fichierProfilXML.ReadString();
@@ -58,18 +58,33 @@ namespace GOSLauncherA3
                         // MODS
                         fichierProfilXML.ReadToFollowing("MODS");
                         string Mods_item = fichierProfilXML.ReadString();
-                        if (Mods_item != "") { MODS += Mods_item + " ";  };
+                        if (Mods_item != "") { MODS += Mods_item + " "; };
                     }
                     GOSLauncherCore.fenetrePrincipale.textBox18.Text = MODS;
                     fichierProfilXML.Close();
 
                 }
 
-                
+
             }
             catch { }
-            
 
+            specific_Init();
+        }
+        static private void specific_Init()
+        {
+            try
+            {
+                if (System.IO.File.Exists(GOSLauncherCore.cheminARMA3 + @"\@GOS\@INTERCLAN\userconfig\ctab\ctab_settings.hpp") &&
+                    !System.IO.File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\ctab\ctab_settings.hpp"))
+                { 
+
+                    System.IO.Directory.CreateDirectory(GOSLauncherCore.cheminARMA3 + @"\userconfig\ctab");
+                    System.IO.File.Copy(GOSLauncherCore.cheminARMA3 + @"\@GOS\@INTERCLAN\userconfig\ctab\ctab_settings.hpp", GOSLauncherCore.cheminARMA3 + @"\userconfig\ctab\ctab_settings.hpp");
+
+                }
+            }
+            catch (Exception e){ Console.WriteLine("{0} Exception caught.", e); }
         }
     }
 }
