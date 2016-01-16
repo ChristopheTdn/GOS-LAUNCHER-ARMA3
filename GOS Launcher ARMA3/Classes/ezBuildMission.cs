@@ -52,7 +52,6 @@ namespace GOSLauncherA3
             initMapNames();
             mainPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\Arma 3 - Other Profiles";
             string[] SubDirs = Directory.GetDirectories(mainPath);
-
             comboBox2.Items.Add("Défaut");
             foreach (string s in SubDirs)
             {
