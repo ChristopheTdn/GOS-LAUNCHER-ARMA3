@@ -12,14 +12,13 @@ namespace GOSLauncherA3
         static public ContextMenu trayMenu = new ContextMenu();
         static public void initialiseTrayIcon()
         {
-            
+
             /*
             GOSLauncherCore.fenetrePrincipale.WindowState = FormWindowState.Minimized;
             GOSLauncherCore.fenetrePrincipale.Visible = false;
             GOSLauncherCore.fenetrePrincipale.ShowInTaskbar = false;
             */
-            GOSLauncherCore.fenetrePrincipale.Icon = GOSLauncherA3.Properties.Resources.GOSLauncherA3;
-            GOSLauncherCore.fenetrePrincipale.ShowInTaskbar = false;
+            GOSLauncherCore.fenetrePrincipale.Icon = GOSLauncherA3.Properties.Resources.GOSLauncherA3;  
 
             //Init trayMenu
             trayMenu.MenuItems.Add("&Ouvrir GOS Launcher", OuvrirGOSLauncher);

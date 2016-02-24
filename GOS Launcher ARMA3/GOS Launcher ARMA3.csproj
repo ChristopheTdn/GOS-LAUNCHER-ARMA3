@@ -36,8 +36,8 @@
     <SuiteName>Clan GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>326</ApplicationRevision>
-    <ApplicationVersion>1.05.0109.%2a</ApplicationVersion>
+    <ApplicationRevision>328</ApplicationRevision>
+    <ApplicationVersion>1.05.0224.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -426,7 +426,6 @@
     <None Include="gfx\splascreen.png" />
     <None Include="gfx\splashscreen.png" />
     <None Include="gfx\TaskForceRadio.png" />
-    <Content Include="Projet1.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />

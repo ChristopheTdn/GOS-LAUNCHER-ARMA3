@@ -448,7 +448,7 @@ namespace GOSLauncherA3
             {
                 case "AUTRES_MODS":
                     tagNameXML = "AUTRES_MODS";
-                    filtreRepertoire = " ";
+                    filtreRepertoire = "¤¤¤¤¤¤";
                     break;
                 case "DOC_ARMA3":
                     tagNameXML = "DOC_ARMA3";
@@ -527,7 +527,7 @@ namespace GOSLauncherA3
                             elementsProfilChecked = true;
                         }
                         
-                    }
+                    }                    
                     Tab.Items.Add(ligne.Replace(filtreRepertoire,""), elementsProfilChecked);
                 }
                 
