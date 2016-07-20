@@ -638,7 +638,7 @@ namespace GOSLauncherA3
                 generationLigneArguments(serveur);
                 if (serveur == "newofficiel") { serveur = @"-connect=188.165.254.11 -port=4442 -password=opex "; };
                 if (serveur == "newmapping") { serveur = @"-connect=188.165.254.11 -port=3302 -password=patrie "; };
-                if (serveur == "public") { serveur = @" "; };
+                if (serveur == "public") { serveur = @"-connect=188.165.254.11 -port=7302 "; };
                 if (serveur == "interclan") { serveur = @"-connect=" + GOSLauncherCore.fenetrePrincipale.textBox10.Text + " -port=" + GOSLauncherCore.fenetrePrincipale.textBox17.Text + " -password=" + GOSLauncherCore.fenetrePrincipale.textBox12.Text + " "; };
                 ProgExterne.lancerFraps(); 
                 ProgExterne.lancerTrackIR();

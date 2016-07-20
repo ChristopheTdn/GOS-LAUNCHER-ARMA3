@@ -366,8 +366,7 @@ namespace GOSLauncherA3
            genereInfoMapServeur("Mapping", "188.165.254.11", 3303, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_MAPPING, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionMAPPING);
 
             // Serveur Public
-           //genereInfoMapServeur("Public", "188.165.254.11", 2903, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_PUBLIC, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionPUBLIC);
-
+           genereInfoMapServeur("Public", "188.165.254.11", 7303, GOSLauncherCore.fenetrePrincipale.checkBox_SERVEUR_PUBLIC, GOSLauncherCore.fenetrePrincipale.textBox_nomMissionPUBLIC);
         }
 
 

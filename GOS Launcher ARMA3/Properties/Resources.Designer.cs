@@ -133,16 +133,6 @@ namespace GOSLauncherA3.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CE_Standard {
-            get {
-                object obj = ResourceManager.GetObject("CE_Standard", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap CE_urbain {
             get {
                 object obj = ResourceManager.GetObject("CE_urbain", resourceCulture);

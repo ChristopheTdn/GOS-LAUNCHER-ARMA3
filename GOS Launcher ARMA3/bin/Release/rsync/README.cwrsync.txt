@@ -1,5 +1,5 @@
-cwRsync 5.4.1 Free - Rsync for Windows
-October 2014, provided by Itefix - https://www.itefix.net/cwrsync
+cwRsync 5.5.0 Free - Rsync for Windows
+December 2015, provided by Itefix - https://www.itefix.net/cwrsync
 
 This archive contains a barebone distribution of Rsync for Windows.
 
@@ -27,7 +27,7 @@ See https://www.itefix.net/cwrsync for more information.
 ENJOY RSYNC!!
 
 Version information:
-Rsync 3.1.1
-Cygwin 1.7.32
-OpenSSH 6.7p
-OpenSSL 1.0.1i
+Rsync 3.1.2
+Cygwin 2.3.1
+OpenSSH 7.1p
+OpenSSL 1.0.2e

@@ -232,9 +232,6 @@
   <data name="CE_desert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\camo_image\CE desert.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CE_mixte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\CE mixte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="CE_urbain" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\camo_image\CE urbain.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -252,9 +249,6 @@
   </data>
   <data name="MAK_DPM_TROPIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\camo_image\MAK DPM TROPIC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CE_Standard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\CE Standard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MAK_Tiger_Golden" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\camo_image\MAK Tiger Golden.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -288,5 +282,8 @@
   </data>
   <data name="rename" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\rename.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CE_mixte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\ce mixte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
