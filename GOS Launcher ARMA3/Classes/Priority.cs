@@ -56,7 +56,7 @@ namespace GOSLauncherA3
             List<string> listeModsValide = new List<string>();
             // recupere tous les Mods coché dans une seule liste
             // Template
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox7, @"@GOS\@TEMPLATE\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Template, @"@GOS\@TEMPLATE\"))
             {
                 listeModsValide.Add(ligne);
                 if (ligne==@"@GOS\@TEMPLATE\@GOSUnits_Cfg")
@@ -71,52 +71,52 @@ namespace GOSLauncherA3
             if (GOSLauncherCore.fenetrePrincipale.radioButton20.Checked) {listeModsValide.Add(@"@GOS\@TEMPLATE\@GOSUnit_HelmetsST");};
             if (GOSLauncherCore.fenetrePrincipale.radioButton21.Checked) { listeModsValide.Add(@"@GOS\@TEMPLATE\@GOSUnit_HelmetsXT"); };
             // FRAMEWORK
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox8, @"@GOS\@FRAMEWORK\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Framework, @"@GOS\@FRAMEWORK\"))
             {
                 listeModsValide.Add(ligne);
             }
             // Islands
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox1, @"@GOS\@ISLANDS\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Islands, @"@GOS\@ISLANDS\"))
             {
                 listeModsValide.Add(ligne);
             }
             // Units
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox2, @"@GOS\@UNITS\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Units, @"@GOS\@UNITS\"))
             {
                 listeModsValide.Add(ligne);
             }
             // Materiel
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox3, @"@GOS\@MATERIEL\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Materiel, @"@GOS\@MATERIEL\"))
             {
                 listeModsValide.Add(ligne);
             }
             // Client
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox6, @"@GOS\@CLIENT\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Client, @"@GOS\@CLIENT\"))
             {
                 listeModsValide.Add(ligne);
             }
             // test
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox4, @"@GOS\@TEST\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Test, @"@GOS\@TEST\"))
             {
                 listeModsValide.Add(ligne);
             }
             // INTERCLAN
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox11, @"@GOS\@INTERCLAN\"))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_Interclan, @"@GOS\@INTERCLAN\"))
             {
                 listeModsValide.Add(ligne);
             }
             // Autres MODS
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox5, ""))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Arma3, ""))
             {
                 listeModsValide.Add(ligne);
             }
             // ARMA 3 DOC
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox9, ""))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Docs_Arma3, ""))
             {
                 listeModsValide.Add((System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Arma 3\") + ligne);
             }
             // ARMA 3 DOC OTHER PROFILE
-            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox10, ""))
+            foreach (string ligne in ExtractionListeModsValides(GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Docs_Arma3_OthersProfiles, ""))
             {
                 listeModsValide.Add((System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Arma 3 - Other Profiles\") + ligne);
             }

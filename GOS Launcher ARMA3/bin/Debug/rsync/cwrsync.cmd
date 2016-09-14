@@ -3,22 +3,21 @@ REM *****************************************************************
 REM
 REM CWRSYNC.CMD - Batch file template to start your rsync command (s).
 REM
-REM By Tevfik K. (http://itefix.no)
 REM *****************************************************************
 
 REM Make environment variable changes local to this batch file
 SETLOCAL
 
-REM ** CUSTOMIZE ** Specify where to find rsync and related files (C:\CWRSYNC)
-SET CWRSYNCHOME=%PROGRAMFILES%\CWRSYNC
+REM Specify where to find rsync and related files
+REM Default value is the directory of this batch file
+SET CWRSYNCHOME=%~dp0
 
-REM Set HOME variable to your windows home directory. That makes sure 
-REM that ssh command creates known_hosts in a directory you have access.
-SET HOME=%HOMEDRIVE%%HOMEPATH%
+REM Create a home directory for .ssh 
+IF NOT EXIST %CWRSYNCHOME%\home\%USERNAME%\.ssh MKDIR %CWRSYNCHOME%\home\%USERNAME%\.ssh
 
 REM Make cwRsync home as a part of system PATH to find required DLLs
 SET CWOLDPATH=%PATH%
-SET PATH=%CWRSYNCHOME%\BIN;%PATH%
+SET PATH=%CWRSYNCHOME%\bin;%PATH%
 
 REM Windows paths may contain a colon (:) as a part of drive designation and 
 REM backslashes (example c:\, g:\). However, in rsync syntax, a colon in a 

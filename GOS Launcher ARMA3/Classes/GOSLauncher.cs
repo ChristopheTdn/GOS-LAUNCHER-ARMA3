@@ -146,22 +146,22 @@ namespace GOSLauncherA3
             FichierProfilXML.WriteStartElement("MODS_GOS");
             //FRAMEWORK
             FichierProfilXML.WriteStartElement("FRAMEWORK");
-            if (fenetrePrincipale.checkedListBox8.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Framework.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox8.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Framework.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@FRAMEWORK\" + fenetrePrincipale.checkedListBox8.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@FRAMEWORK\" + fenetrePrincipale.checkedListBox_Framework.CheckedItems[x].ToString());
                 }
             }
             FichierProfilXML.WriteEndElement();
 
             //ISLANDS
             FichierProfilXML.WriteStartElement("ISLANDS");
-            if (fenetrePrincipale.checkedListBox1.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Islands.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox1.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Islands.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@ISLANDS\" + fenetrePrincipale.checkedListBox1.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@ISLANDS\" + fenetrePrincipale.checkedListBox_Islands.CheckedItems[x].ToString());
                 }
 
             }
@@ -169,11 +169,11 @@ namespace GOSLauncherA3
 
             //UNITS
             FichierProfilXML.WriteStartElement("UNITS");
-            if (fenetrePrincipale.checkedListBox2.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Units.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox2.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Units.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@UNITS\" + fenetrePrincipale.checkedListBox2.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@UNITS\" + fenetrePrincipale.checkedListBox_Units.CheckedItems[x].ToString());
 
                 }
             }
@@ -181,54 +181,54 @@ namespace GOSLauncherA3
 
             //MATERIEL
             FichierProfilXML.WriteStartElement("MATERIEL");
-            if (fenetrePrincipale.checkedListBox3.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Materiel.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox3.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Materiel.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@MATERIEL\" + fenetrePrincipale.checkedListBox3.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@MATERIEL\" + fenetrePrincipale.checkedListBox_Materiel.CheckedItems[x].ToString());
                 }
             }
             FichierProfilXML.WriteEndElement();
 
             //TEST
             FichierProfilXML.WriteStartElement("TEST");
-            if (fenetrePrincipale.checkedListBox4.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Test.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox4.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Test.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEST\" + fenetrePrincipale.checkedListBox4.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEST\" + fenetrePrincipale.checkedListBox_Test.CheckedItems[x].ToString());
                 }
             }
             FichierProfilXML.WriteEndElement();
 
             //CLIENT
             FichierProfilXML.WriteStartElement("CLIENT");
-            if (fenetrePrincipale.checkedListBox6.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Client.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox6.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Client.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@CLIENT\" + fenetrePrincipale.checkedListBox6.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@CLIENT\" + fenetrePrincipale.checkedListBox_Client.CheckedItems[x].ToString());
                 }
             }
             FichierProfilXML.WriteEndElement();
 
             //INTERCLAN
             FichierProfilXML.WriteStartElement("INTERCLAN");
-            if (fenetrePrincipale.checkedListBox11.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Interclan.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox11.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Interclan.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@INTERCLAN\" + fenetrePrincipale.checkedListBox11.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@INTERCLAN\" + fenetrePrincipale.checkedListBox_Interclan.CheckedItems[x].ToString());
                 }
             }
             FichierProfilXML.WriteEndElement();
             //TEMPLATE
             FichierProfilXML.WriteStartElement("TEMPLATE");
-            if (fenetrePrincipale.checkedListBox7.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_Template.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox7.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_Template.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\" + fenetrePrincipale.checkedListBox7.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\" + fenetrePrincipale.checkedListBox_Template.CheckedItems[x].ToString());
                 }
                 // ecrire skin
                 if (fenetrePrincipale.comboBox2.Text != "")
@@ -247,21 +247,21 @@ namespace GOSLauncherA3
             //ARMA3 ROOT
 
             FichierProfilXML.WriteStartElement("AUTRES_MODS");
-            if (fenetrePrincipale.checkedListBox5.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_MODS_Arma3.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox5.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_MODS_Arma3.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", fenetrePrincipale.checkedListBox5.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", fenetrePrincipale.checkedListBox_MODS_Arma3.CheckedItems[x].ToString());
                 }
             }
             FichierProfilXML.WriteEndElement();
             //ARMA3 DOCUMENTS
             FichierProfilXML.WriteStartElement("DOC_ARMA3");
-            if (fenetrePrincipale.checkedListBox9.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_MODS_Docs_Arma3.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox9.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_MODS_Docs_Arma3.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", fenetrePrincipale.checkedListBox9.CheckedItems[x].ToString().Replace(System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Arma 3\", ""));
+                    FichierProfilXML.WriteElementString("MODS", fenetrePrincipale.checkedListBox_MODS_Docs_Arma3.CheckedItems[x].ToString().Replace(System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Arma 3\", ""));
                 }
             }
             FichierProfilXML.WriteEndElement();
@@ -269,11 +269,11 @@ namespace GOSLauncherA3
             //ARMA3 DOCUMENTS OTHER PROFILE
 
             FichierProfilXML.WriteStartElement("DOC_OTHERPROFILE");
-            if (fenetrePrincipale.checkedListBox10.CheckedItems.Count != 0)
+            if (fenetrePrincipale.checkedListBox_MODS_Docs_Arma3_OthersProfiles.CheckedItems.Count != 0)
             {
-                for (int x = 0; x <= fenetrePrincipale.checkedListBox10.CheckedItems.Count - 1; x++)
+                for (int x = 0; x <= fenetrePrincipale.checkedListBox_MODS_Docs_Arma3_OthersProfiles.CheckedItems.Count - 1; x++)
                 {
-                    FichierProfilXML.WriteElementString("MODS", fenetrePrincipale.checkedListBox10.CheckedItems[x].ToString());
+                    FichierProfilXML.WriteElementString("MODS", fenetrePrincipale.checkedListBox_MODS_Docs_Arma3_OthersProfiles.CheckedItems[x].ToString());
                 }
             }
             FichierProfilXML.WriteEndElement();           
@@ -667,7 +667,7 @@ namespace GOSLauncherA3
        {
            try
            {
-               if (fenetrePrincipale.checkedListBox7.GetItemChecked(fenetrePrincipale.checkedListBox7.FindString("@GOSUnits_Cfg")))
+               if (fenetrePrincipale.checkedListBox_Template.GetItemChecked(fenetrePrincipale.checkedListBox_Template.FindString("@GOSUnits_Cfg")))
                {
                    if (fenetrePrincipale.comboBox2.Text == "")
                    {

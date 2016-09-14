@@ -47,7 +47,7 @@ namespace GOSLauncherA3
                 GOSLauncherCore.fenetrePrincipale.tabControl2.TabPages.Remove(GOSLauncherCore.fenetrePrincipale.Interclan_Info);
                 GOSLauncherCore.fenetrePrincipale.pictureBox6.Visible = false;
                 GOSLauncherCore.fenetrePrincipale.pictureBox36.Visible = false;
-                GOSLauncherCore.fenetrePrincipale.button39.Visible = false;
+                GOSLauncherCore.fenetrePrincipale.button_ImporterMods.Visible = false;
                 GOSLauncherCore.fenetrePrincipale.button38.Visible = false;
 
                 // TS3 version 3.0.14
@@ -71,21 +71,21 @@ namespace GOSLauncherA3
             effaceTousItemsOnglets();
 
             // @GOS 
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox7, "@TEMPLATE", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox8, "@FRAMEWORK", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox1, "@ISLANDS", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox2, "@UNITS", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox3, "@MATERIEL", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox6, "@CLIENT", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox4, "@TEST", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox11, "@INTERCLAN", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Template, "@TEMPLATE", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Framework, "@FRAMEWORK", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Islands, "@ISLANDS", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Units, "@UNITS", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Materiel, "@MATERIEL", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Client, "@CLIENT", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Test, "@TEST", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_Interclan, "@INTERCLAN", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
             // @Autre
             // Root
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox5, "AUTRES_MODS", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Arma3, "AUTRES_MODS", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
             //Arma3 profile            
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox9, "DOC_ARMA3", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Docs_Arma3, "DOC_ARMA3", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
             //Arma3 other profile
-            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox10, "DOC_OTHERPROFILE", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
+            GOSLauncherCore.ListeTab(GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Docs_Arma3_OthersProfiles, "DOC_OTHERPROFILE", (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString());
             //genereTabMods();
             genereTabParam();
             genereTabPriorite();
@@ -99,17 +99,17 @@ namespace GOSLauncherA3
             GOSLauncherCore.fenetrePrincipale.radioButton21.Enabled = false;
             GOSLauncherCore.fenetrePrincipale.radioButton21.Checked = false;
             GOSLauncherCore.fenetrePrincipale.pictureBox1.Image = GOSLauncherA3.Properties.Resources.logoGOS;
-            GOSLauncherCore.fenetrePrincipale.checkedListBox8.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox7.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox1.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox2.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox3.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox6.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox4.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox5.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox9.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox10.Items.Clear();
-            GOSLauncherCore.fenetrePrincipale.checkedListBox11.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Framework.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Template.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Islands.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Units.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Materiel.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Client.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Test.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Arma3.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Docs_Arma3.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_MODS_Docs_Arma3_OthersProfiles.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.checkedListBox_Interclan.Items.Clear();
         }
         static public void effaceTousparamsOnglet()
         {

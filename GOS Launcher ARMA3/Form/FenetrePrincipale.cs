@@ -248,12 +248,12 @@ namespace GOSLauncherA3
         {
             // efface les onglets
 
-            checkedListBox7.Items.Clear();
-            checkedListBox8.Items.Clear();
-            checkedListBox1.Items.Clear();
-            checkedListBox2.Items.Clear();
-            checkedListBox3.Items.Clear();
-            checkedListBox4.Items.Clear();
+            checkedListBox_Template.Items.Clear();
+            checkedListBox_Framework.Items.Clear();
+            checkedListBox_Islands.Items.Clear();
+            checkedListBox_Units.Items.Clear();
+            checkedListBox_Materiel.Items.Clear();
+            checkedListBox_Test.Items.Clear();
             pictureBox1.Image = GOSLauncherA3.Properties.Resources.logoGOS;
             //comboBox2.Items.Clear();
 
@@ -315,7 +315,7 @@ namespace GOSLauncherA3
                             }
                             else
                             {
-                                checkedListBox7.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\", ""), elementsProfilChecked);
+                                checkedListBox_Template.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\", ""), elementsProfilChecked);
                             }
 
                         }
@@ -343,7 +343,7 @@ namespace GOSLauncherA3
                         string menuRepertoire = System.IO.Directory.GetParent(ligne).ToString();
                         if (menuRepertoire.Replace(GOSLauncherCore.cheminARMA3, "").IndexOf("@") != -1)
                         {
-                            checkedListBox8.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@FRAMEWORK\", ""), elementsProfilChecked);
+                            checkedListBox_Framework.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@FRAMEWORK\", ""), elementsProfilChecked);
                         }
                     }
                 }
@@ -370,7 +370,7 @@ namespace GOSLauncherA3
                         string menuRepertoire = System.IO.Directory.GetParent(ligne).ToString();
                         if (menuRepertoire.Replace(GOSLauncherCore.cheminARMA3, "").IndexOf("@") != -1)
                         {
-                            checkedListBox1.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@ISLANDS\", ""), elementsProfilChecked);
+                            checkedListBox_Islands.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@ISLANDS\", ""), elementsProfilChecked);
                         }
                     }
                 }
@@ -396,7 +396,7 @@ namespace GOSLauncherA3
                         string menuRepertoire = System.IO.Directory.GetParent(ligne).ToString();
                         if (menuRepertoire.Replace(GOSLauncherCore.cheminARMA3, "").IndexOf("@") != -1)
                         {
-                            checkedListBox6.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\", ""), elementsProfilChecked);
+                            checkedListBox_Client.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\", ""), elementsProfilChecked);
                         }
                     }
                 }
@@ -423,7 +423,7 @@ namespace GOSLauncherA3
                         string menuRepertoire = System.IO.Directory.GetParent(ligne).ToString();
                         if (menuRepertoire.Replace(GOSLauncherCore.cheminARMA3, "").IndexOf("@") != -1)
                         {
-                            checkedListBox2.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@UNITS\", ""), elementsProfilChecked);
+                            checkedListBox_Units.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@UNITS\", ""), elementsProfilChecked);
                         }
                     }
                 }
@@ -449,7 +449,7 @@ namespace GOSLauncherA3
                         string menuRepertoire = System.IO.Directory.GetParent(ligne).ToString();
                         if (menuRepertoire.Replace(GOSLauncherCore.cheminARMA3, "").IndexOf("@") != -1)
                         {
-                            checkedListBox3.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@MATERIEL\", ""), elementsProfilChecked);
+                            checkedListBox_Materiel.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@MATERIEL\", ""), elementsProfilChecked);
                         }
                     }
                 }
@@ -474,7 +474,7 @@ namespace GOSLauncherA3
                         string menuRepertoire = System.IO.Directory.GetParent(ligne).ToString();
                         if (menuRepertoire.Replace(GOSLauncherCore.cheminARMA3, "").IndexOf("@") != -1)
                         {
-                            checkedListBox4.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEST\", ""), elementsProfilChecked);
+                            checkedListBox_Test.Items.Add(menuRepertoire.Replace(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEST\", ""), elementsProfilChecked);
                         }
                     }
                 }
@@ -540,33 +540,33 @@ namespace GOSLauncherA3
 
                 //FRAMEWORK
                 FichierProfilXML.WriteStartElement("FRAMEWORK");
-                if (checkedListBox8.CheckedItems.Count != 0)
+                if (checkedListBox_Framework.CheckedItems.Count != 0)
                 {
-                    for (int x = 0; x <= checkedListBox8.CheckedItems.Count - 1; x++)
+                    for (int x = 0; x <= checkedListBox_Framework.CheckedItems.Count - 1; x++)
                     {
-                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@FRAMEWORK\" + checkedListBox8.CheckedItems[x].ToString());
+                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@FRAMEWORK\" + checkedListBox_Framework.CheckedItems[x].ToString());
                     }
                 }
                 FichierProfilXML.WriteEndElement();
 
                 //ISLANDS
                 FichierProfilXML.WriteStartElement("ISLANDS");
-                if (checkedListBox1.CheckedItems.Count != 0)
+                if (checkedListBox_Islands.CheckedItems.Count != 0)
                 {
-                    for (int x = 0; x <= checkedListBox1.CheckedItems.Count - 1; x++)
+                    for (int x = 0; x <= checkedListBox_Islands.CheckedItems.Count - 1; x++)
                     {
-                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@ISLANDS\" + checkedListBox1.CheckedItems[x].ToString());
+                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@ISLANDS\" + checkedListBox_Islands.CheckedItems[x].ToString());
                     }
                 }
                 FichierProfilXML.WriteEndElement();
 
                 //UNITS
                 FichierProfilXML.WriteStartElement("UNITS");
-                if (checkedListBox2.CheckedItems.Count != 0)
+                if (checkedListBox_Units.CheckedItems.Count != 0)
                 {
-                    for (int x = 0; x <= checkedListBox2.CheckedItems.Count - 1; x++)
+                    for (int x = 0; x <= checkedListBox_Units.CheckedItems.Count - 1; x++)
                     {
-                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@UNITS\" + checkedListBox2.CheckedItems[x].ToString());
+                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@UNITS\" + checkedListBox_Units.CheckedItems[x].ToString());
 
                     }
                 }
@@ -574,22 +574,22 @@ namespace GOSLauncherA3
 
                 //MATERIEL
                 FichierProfilXML.WriteStartElement("MATERIEL");
-                if (checkedListBox3.CheckedItems.Count != 0)
+                if (checkedListBox_Materiel.CheckedItems.Count != 0)
                 {
-                    for (int x = 0; x <= checkedListBox3.CheckedItems.Count - 1; x++)
+                    for (int x = 0; x <= checkedListBox_Materiel.CheckedItems.Count - 1; x++)
                     {
-                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@MATERIEL\" + checkedListBox3.CheckedItems[x].ToString());
+                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@MATERIEL\" + checkedListBox_Materiel.CheckedItems[x].ToString());
                     }
                 }
                 FichierProfilXML.WriteEndElement();
 
                 //TEST
                 FichierProfilXML.WriteStartElement("TEST");
-                if (checkedListBox4.CheckedItems.Count != 0)
+                if (checkedListBox_Test.CheckedItems.Count != 0)
                 {
-                    for (int x = 0; x <= checkedListBox4.CheckedItems.Count - 1; x++)
+                    for (int x = 0; x <= checkedListBox_Test.CheckedItems.Count - 1; x++)
                     {
-                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEST\" + checkedListBox4.CheckedItems[x].ToString());
+                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEST\" + checkedListBox_Test.CheckedItems[x].ToString());
                     }
                 }
                 FichierProfilXML.WriteEndElement();
@@ -597,11 +597,11 @@ namespace GOSLauncherA3
 
                 //TEMPLATE
                 FichierProfilXML.WriteStartElement("TEMPLATE");
-                if (checkedListBox7.CheckedItems.Count != 0)
+                if (checkedListBox_Template.CheckedItems.Count != 0)
                 {
-                    for (int x = 0; x <= checkedListBox7.CheckedItems.Count - 1; x++)
+                    for (int x = 0; x <= checkedListBox_Template.CheckedItems.Count - 1; x++)
                     {
-                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\" + checkedListBox7.CheckedItems[x].ToString());
+                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\" + checkedListBox_Template.CheckedItems[x].ToString());
                     }
                 // ecrire skin
                 if (comboBox2.Text != "") { FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\@GOSSkin_"+comboBox2.Text);
@@ -610,14 +610,15 @@ namespace GOSLauncherA3
                 if (radioButton21.Checked == true) { FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\@GOSUnit_HelmetsXT"); }
                 }
                 FichierProfilXML.WriteEndElement();
+                }
                 FichierProfilXML.WriteEndElement();
                 FichierProfilXML.WriteEndElement();
 
                 FichierProfilXML.Flush(); //vide le buffer
                 FichierProfilXML.Close(); // ferme le document
                 UploadConfigServeur(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\ImportConfigServeurA3.xml", @"ftp://37.59.36.179/system/listemod/ImportConfigServeurA3.xml");
+
             }
-          }
         }
 
  
@@ -749,61 +750,61 @@ namespace GOSLauncherA3
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox1);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Islands);
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox1);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Islands);
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox2);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Units);
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox3);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Materiel);
         }
         private void button9_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox4);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Test);
         }
         private void button10_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox6);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Client);
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox2);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Units);
         }
         private void button6_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox3);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Materiel);
         }
         private void button8_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox4);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Test);
         }
         private void button11_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox6);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Client);
         }
         private void button12_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox7);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Template);
         }
         private void button13_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox7);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Template);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox5);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_MODS_Arma3);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox5);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_MODS_Arma3);
         }
 
 
@@ -1183,12 +1184,12 @@ namespace GOSLauncherA3
         private void button21_Click(object sender, EventArgs e)
         {
 
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox8);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Framework);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox8);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Framework);
         }
 
         private void button22_Click(object sender, EventArgs e)
@@ -1204,22 +1205,22 @@ namespace GOSLauncherA3
 
         private void button24_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox9);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_MODS_Docs_Arma3);
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox9);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_MODS_Docs_Arma3);
         }
 
         private void button33_Click_1(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox10);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_MODS_Docs_Arma3_OthersProfiles);
         }
 
         private void button34_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox10);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_MODS_Docs_Arma3_OthersProfiles);
         }
 
         private void button28_Click(object sender, EventArgs e)
@@ -1461,12 +1462,12 @@ namespace GOSLauncherA3
 
         private void button46_Click(object sender, EventArgs e)
         {
-            GOSLauncherCore.SelectionneTousTAB(checkedListBox11);
+            GOSLauncherCore.SelectionneTousTAB(checkedListBox_Interclan);
         }
 
         private void button44_Click_1(object sender, EventArgs e)
         {
-            GOSLauncherCore.InverseTousTAB(checkedListBox11);
+            GOSLauncherCore.InverseTousTAB(checkedListBox_Interclan);
         }
 
         private void checkedListBox4_SelectedIndexChanged(object sender, EventArgs e)

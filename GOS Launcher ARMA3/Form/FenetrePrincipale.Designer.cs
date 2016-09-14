@@ -42,58 +42,59 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.checkedListBox7 = new System.Windows.Forms.CheckedListBox();
-            this.FRAMEWORK = new System.Windows.Forms.TabPage();
+            this.checkedListBox_Template = new System.Windows.Forms.CheckedListBox();
+            this.TEMPLATE2 = new System.Windows.Forms.TabPage();
+            this.textBox21 = new System.Windows.Forms.TextBox();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
-            this.checkedListBox8 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_Framework = new System.Windows.Forms.CheckedListBox();
             this.ISLANDS = new System.Windows.Forms.TabPage();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_Islands = new System.Windows.Forms.CheckedListBox();
             this.UNITS = new System.Windows.Forms.TabPage();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_Units = new System.Windows.Forms.CheckedListBox();
             this.MATERIEL = new System.Windows.Forms.TabPage();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_Materiel = new System.Windows.Forms.CheckedListBox();
             this.CLIENT = new System.Windows.Forms.TabPage();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.checkedListBox6 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_Client = new System.Windows.Forms.CheckedListBox();
             this.TEST = new System.Windows.Forms.TabPage();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_Test = new System.Windows.Forms.CheckedListBox();
             this.INTERCLAN = new System.Windows.Forms.TabPage();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.button44 = new System.Windows.Forms.Button();
             this.button46 = new System.Windows.Forms.Button();
-            this.checkedListBox11 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_Interclan = new System.Windows.Forms.CheckedListBox();
             this.MODs = new System.Windows.Forms.TabPage();
             this.tabControl4 = new System.Windows.Forms.TabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.checkedListBox5 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_MODS_Arma3 = new System.Windows.Forms.CheckedListBox();
             this.button22 = new System.Windows.Forms.Button();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.button15 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.checkedListBox9 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_MODS_Docs_Arma3 = new System.Windows.Forms.CheckedListBox();
             this.button23 = new System.Windows.Forms.Button();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.button24 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.checkedListBox10 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox_MODS_Docs_Arma3_OthersProfiles = new System.Windows.Forms.CheckedListBox();
             this.button28 = new System.Windows.Forms.Button();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.button33 = new System.Windows.Forms.Button();
@@ -298,7 +299,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.checkBox24 = new System.Windows.Forms.CheckBox();
             this.checkBox_ARMA3BattleyeOption = new System.Windows.Forms.CheckBox();
-            this.button39 = new System.Windows.Forms.Button();
+            this.button_ImporterMods = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
@@ -326,7 +327,7 @@
             this.groupBox14.SuspendLayout();
             this.groupBox13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.FRAMEWORK.SuspendLayout();
+            this.TEMPLATE2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             this.ISLANDS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -418,7 +419,7 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.TEMPLATE);
-            this.tabControl1.Controls.Add(this.FRAMEWORK);
+            this.tabControl1.Controls.Add(this.TEMPLATE2);
             this.tabControl1.Controls.Add(this.ISLANDS);
             this.tabControl1.Controls.Add(this.UNITS);
             this.tabControl1.Controls.Add(this.MATERIEL);
@@ -439,7 +440,7 @@
             this.TEMPLATE.Controls.Add(this.pictureBox1);
             this.TEMPLATE.Controls.Add(this.button13);
             this.TEMPLATE.Controls.Add(this.button12);
-            this.TEMPLATE.Controls.Add(this.checkedListBox7);
+            this.TEMPLATE.Controls.Add(this.checkedListBox_Template);
             this.TEMPLATE.Name = "TEMPLATE";
             // 
             // groupBox14
@@ -501,26 +502,34 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
-            // checkedListBox7
+            // checkedListBox_Template
             // 
-            this.checkedListBox7.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox7.CheckOnClick = true;
-            resources.ApplyResources(this.checkedListBox7, "checkedListBox7");
-            this.checkedListBox7.FormattingEnabled = true;
-            this.checkedListBox7.MultiColumn = true;
-            this.checkedListBox7.Name = "checkedListBox7";
-            this.checkedListBox7.ThreeDCheckBoxes = true;
+            this.checkedListBox_Template.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Template.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Template.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox_Template, "checkedListBox_Template");
+            this.checkedListBox_Template.FormattingEnabled = true;
+            this.checkedListBox_Template.MultiColumn = true;
+            this.checkedListBox_Template.Name = "checkedListBox_Template";
+            this.checkedListBox_Template.ThreeDCheckBoxes = true;
             // 
-            // FRAMEWORK
+            // TEMPLATE2
             // 
-            this.FRAMEWORK.BackColor = System.Drawing.Color.Gainsboro;
-            this.FRAMEWORK.Controls.Add(this.pictureBox33);
-            this.FRAMEWORK.Controls.Add(this.button20);
-            this.FRAMEWORK.Controls.Add(this.button21);
-            this.FRAMEWORK.Controls.Add(this.checkedListBox8);
-            resources.ApplyResources(this.FRAMEWORK, "FRAMEWORK");
-            this.FRAMEWORK.Name = "FRAMEWORK";
+            this.TEMPLATE2.BackColor = System.Drawing.Color.Gainsboro;
+            this.TEMPLATE2.Controls.Add(this.textBox21);
+            this.TEMPLATE2.Controls.Add(this.pictureBox33);
+            this.TEMPLATE2.Controls.Add(this.button20);
+            this.TEMPLATE2.Controls.Add(this.button21);
+            this.TEMPLATE2.Controls.Add(this.checkedListBox_Framework);
+            resources.ApplyResources(this.TEMPLATE2, "TEMPLATE2");
+            this.TEMPLATE2.Name = "TEMPLATE2";
+            // 
+            // textBox21
+            // 
+            this.textBox21.BackColor = System.Drawing.Color.Brown;
+            this.textBox21.ForeColor = System.Drawing.SystemColors.Info;
+            resources.ApplyResources(this.textBox21, "textBox21");
+            this.textBox21.Name = "textBox21";
             // 
             // pictureBox33
             // 
@@ -543,16 +552,16 @@
             this.button21.UseVisualStyleBackColor = true;
             this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
-            // checkedListBox8
+            // checkedListBox_Framework
             // 
-            this.checkedListBox8.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox8.CheckOnClick = true;
-            resources.ApplyResources(this.checkedListBox8, "checkedListBox8");
-            this.checkedListBox8.FormattingEnabled = true;
-            this.checkedListBox8.MultiColumn = true;
-            this.checkedListBox8.Name = "checkedListBox8";
-            this.checkedListBox8.ThreeDCheckBoxes = true;
+            this.checkedListBox_Framework.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Framework.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Framework.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox_Framework, "checkedListBox_Framework");
+            this.checkedListBox_Framework.FormattingEnabled = true;
+            this.checkedListBox_Framework.MultiColumn = true;
+            this.checkedListBox_Framework.Name = "checkedListBox_Framework";
+            this.checkedListBox_Framework.ThreeDCheckBoxes = true;
             // 
             // ISLANDS
             // 
@@ -562,7 +571,7 @@
             this.ISLANDS.Controls.Add(this.pictureBox7);
             this.ISLANDS.Controls.Add(this.button3);
             this.ISLANDS.Controls.Add(this.button2);
-            this.ISLANDS.Controls.Add(this.checkedListBox1);
+            this.ISLANDS.Controls.Add(this.checkedListBox_Islands);
             this.ISLANDS.Name = "ISLANDS";
             // 
             // pictureBox7
@@ -586,16 +595,16 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // checkedListBox1
+            // checkedListBox_Islands
             // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox1.CheckOnClick = true;
-            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.MultiColumn = true;
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.ThreeDCheckBoxes = true;
+            this.checkedListBox_Islands.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Islands.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Islands.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox_Islands, "checkedListBox_Islands");
+            this.checkedListBox_Islands.FormattingEnabled = true;
+            this.checkedListBox_Islands.MultiColumn = true;
+            this.checkedListBox_Islands.Name = "checkedListBox_Islands";
+            this.checkedListBox_Islands.ThreeDCheckBoxes = true;
             // 
             // UNITS
             // 
@@ -605,7 +614,7 @@
             this.UNITS.Controls.Add(this.pictureBox8);
             this.UNITS.Controls.Add(this.button4);
             this.UNITS.Controls.Add(this.button5);
-            this.UNITS.Controls.Add(this.checkedListBox2);
+            this.UNITS.Controls.Add(this.checkedListBox_Units);
             this.UNITS.Name = "UNITS";
             // 
             // pictureBox8
@@ -629,16 +638,16 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // checkedListBox2
+            // checkedListBox_Units
             // 
-            this.checkedListBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox2.CheckOnClick = true;
-            this.checkedListBox2.FormattingEnabled = true;
-            resources.ApplyResources(this.checkedListBox2, "checkedListBox2");
-            this.checkedListBox2.MultiColumn = true;
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.ThreeDCheckBoxes = true;
+            this.checkedListBox_Units.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Units.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Units.CheckOnClick = true;
+            this.checkedListBox_Units.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox_Units, "checkedListBox_Units");
+            this.checkedListBox_Units.MultiColumn = true;
+            this.checkedListBox_Units.Name = "checkedListBox_Units";
+            this.checkedListBox_Units.ThreeDCheckBoxes = true;
             // 
             // MATERIEL
             // 
@@ -648,7 +657,7 @@
             this.MATERIEL.Controls.Add(this.pictureBox9);
             this.MATERIEL.Controls.Add(this.button6);
             this.MATERIEL.Controls.Add(this.button7);
-            this.MATERIEL.Controls.Add(this.checkedListBox3);
+            this.MATERIEL.Controls.Add(this.checkedListBox_Materiel);
             this.MATERIEL.Name = "MATERIEL";
             // 
             // pictureBox9
@@ -672,16 +681,16 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // checkedListBox3
+            // checkedListBox_Materiel
             // 
-            this.checkedListBox3.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox3.CheckOnClick = true;
-            this.checkedListBox3.FormattingEnabled = true;
-            resources.ApplyResources(this.checkedListBox3, "checkedListBox3");
-            this.checkedListBox3.MultiColumn = true;
-            this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.ThreeDCheckBoxes = true;
+            this.checkedListBox_Materiel.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Materiel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Materiel.CheckOnClick = true;
+            this.checkedListBox_Materiel.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox_Materiel, "checkedListBox_Materiel");
+            this.checkedListBox_Materiel.MultiColumn = true;
+            this.checkedListBox_Materiel.Name = "checkedListBox_Materiel";
+            this.checkedListBox_Materiel.ThreeDCheckBoxes = true;
             // 
             // CLIENT
             // 
@@ -691,7 +700,7 @@
             this.CLIENT.Controls.Add(this.pictureBox10);
             this.CLIENT.Controls.Add(this.button11);
             this.CLIENT.Controls.Add(this.button10);
-            this.CLIENT.Controls.Add(this.checkedListBox6);
+            this.CLIENT.Controls.Add(this.checkedListBox_Client);
             this.CLIENT.Name = "CLIENT";
             // 
             // pictureBox10
@@ -715,16 +724,16 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // checkedListBox6
+            // checkedListBox_Client
             // 
-            this.checkedListBox6.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox6.CheckOnClick = true;
-            resources.ApplyResources(this.checkedListBox6, "checkedListBox6");
-            this.checkedListBox6.FormattingEnabled = true;
-            this.checkedListBox6.MultiColumn = true;
-            this.checkedListBox6.Name = "checkedListBox6";
-            this.checkedListBox6.ThreeDCheckBoxes = true;
+            this.checkedListBox_Client.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Client.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Client.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox_Client, "checkedListBox_Client");
+            this.checkedListBox_Client.FormattingEnabled = true;
+            this.checkedListBox_Client.MultiColumn = true;
+            this.checkedListBox_Client.Name = "checkedListBox_Client";
+            this.checkedListBox_Client.ThreeDCheckBoxes = true;
             // 
             // TEST
             // 
@@ -734,7 +743,7 @@
             this.TEST.Controls.Add(this.pictureBox11);
             this.TEST.Controls.Add(this.button8);
             this.TEST.Controls.Add(this.button9);
-            this.TEST.Controls.Add(this.checkedListBox4);
+            this.TEST.Controls.Add(this.checkedListBox_Test);
             this.TEST.Name = "TEST";
             // 
             // pictureBox11
@@ -758,17 +767,17 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // checkedListBox4
+            // checkedListBox_Test
             // 
-            this.checkedListBox4.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox4.CheckOnClick = true;
-            resources.ApplyResources(this.checkedListBox4, "checkedListBox4");
-            this.checkedListBox4.FormattingEnabled = true;
-            this.checkedListBox4.MultiColumn = true;
-            this.checkedListBox4.Name = "checkedListBox4";
-            this.checkedListBox4.ThreeDCheckBoxes = true;
-            this.checkedListBox4.SelectedIndexChanged += new System.EventHandler(this.checkedListBox4_SelectedIndexChanged);
+            this.checkedListBox_Test.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Test.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Test.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox_Test, "checkedListBox_Test");
+            this.checkedListBox_Test.FormattingEnabled = true;
+            this.checkedListBox_Test.MultiColumn = true;
+            this.checkedListBox_Test.Name = "checkedListBox_Test";
+            this.checkedListBox_Test.ThreeDCheckBoxes = true;
+            this.checkedListBox_Test.SelectedIndexChanged += new System.EventHandler(this.checkedListBox4_SelectedIndexChanged);
             // 
             // INTERCLAN
             // 
@@ -776,7 +785,7 @@
             this.INTERCLAN.Controls.Add(this.pictureBox16);
             this.INTERCLAN.Controls.Add(this.button44);
             this.INTERCLAN.Controls.Add(this.button46);
-            this.INTERCLAN.Controls.Add(this.checkedListBox11);
+            this.INTERCLAN.Controls.Add(this.checkedListBox_Interclan);
             resources.ApplyResources(this.INTERCLAN, "INTERCLAN");
             this.INTERCLAN.Name = "INTERCLAN";
             // 
@@ -801,16 +810,16 @@
             this.button46.UseVisualStyleBackColor = true;
             this.button46.Click += new System.EventHandler(this.button46_Click);
             // 
-            // checkedListBox11
+            // checkedListBox_Interclan
             // 
-            this.checkedListBox11.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox11.CheckOnClick = true;
-            resources.ApplyResources(this.checkedListBox11, "checkedListBox11");
-            this.checkedListBox11.FormattingEnabled = true;
-            this.checkedListBox11.MultiColumn = true;
-            this.checkedListBox11.Name = "checkedListBox11";
-            this.checkedListBox11.ThreeDCheckBoxes = true;
+            this.checkedListBox_Interclan.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_Interclan.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_Interclan.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox_Interclan, "checkedListBox_Interclan");
+            this.checkedListBox_Interclan.FormattingEnabled = true;
+            this.checkedListBox_Interclan.MultiColumn = true;
+            this.checkedListBox_Interclan.Name = "checkedListBox_Interclan";
+            this.checkedListBox_Interclan.ThreeDCheckBoxes = true;
             // 
             // MODs
             // 
@@ -832,7 +841,7 @@
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage6.Controls.Add(this.checkedListBox5);
+            this.tabPage6.Controls.Add(this.checkedListBox_MODS_Arma3);
             this.tabPage6.Controls.Add(this.button22);
             this.tabPage6.Controls.Add(this.pictureBox12);
             this.tabPage6.Controls.Add(this.button15);
@@ -840,15 +849,15 @@
             resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.Name = "tabPage6";
             // 
-            // checkedListBox5
+            // checkedListBox_MODS_Arma3
             // 
-            this.checkedListBox5.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox5.CheckOnClick = true;
-            this.checkedListBox5.FormattingEnabled = true;
-            resources.ApplyResources(this.checkedListBox5, "checkedListBox5");
-            this.checkedListBox5.Name = "checkedListBox5";
-            this.checkedListBox5.ThreeDCheckBoxes = true;
+            this.checkedListBox_MODS_Arma3.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_MODS_Arma3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_MODS_Arma3.CheckOnClick = true;
+            this.checkedListBox_MODS_Arma3.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox_MODS_Arma3, "checkedListBox_MODS_Arma3");
+            this.checkedListBox_MODS_Arma3.Name = "checkedListBox_MODS_Arma3";
+            this.checkedListBox_MODS_Arma3.ThreeDCheckBoxes = true;
             // 
             // button22
             // 
@@ -881,7 +890,7 @@
             // tabPage9
             // 
             this.tabPage9.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage9.Controls.Add(this.checkedListBox9);
+            this.tabPage9.Controls.Add(this.checkedListBox_MODS_Docs_Arma3);
             this.tabPage9.Controls.Add(this.button23);
             this.tabPage9.Controls.Add(this.pictureBox34);
             this.tabPage9.Controls.Add(this.button24);
@@ -889,15 +898,15 @@
             resources.ApplyResources(this.tabPage9, "tabPage9");
             this.tabPage9.Name = "tabPage9";
             // 
-            // checkedListBox9
+            // checkedListBox_MODS_Docs_Arma3
             // 
-            this.checkedListBox9.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox9.CheckOnClick = true;
-            this.checkedListBox9.FormattingEnabled = true;
-            resources.ApplyResources(this.checkedListBox9, "checkedListBox9");
-            this.checkedListBox9.Name = "checkedListBox9";
-            this.checkedListBox9.ThreeDCheckBoxes = true;
+            this.checkedListBox_MODS_Docs_Arma3.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_MODS_Docs_Arma3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_MODS_Docs_Arma3.CheckOnClick = true;
+            this.checkedListBox_MODS_Docs_Arma3.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox_MODS_Docs_Arma3, "checkedListBox_MODS_Docs_Arma3");
+            this.checkedListBox_MODS_Docs_Arma3.Name = "checkedListBox_MODS_Docs_Arma3";
+            this.checkedListBox_MODS_Docs_Arma3.ThreeDCheckBoxes = true;
             // 
             // button23
             // 
@@ -930,7 +939,7 @@
             // tabPage10
             // 
             this.tabPage10.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage10.Controls.Add(this.checkedListBox10);
+            this.tabPage10.Controls.Add(this.checkedListBox_MODS_Docs_Arma3_OthersProfiles);
             this.tabPage10.Controls.Add(this.button28);
             this.tabPage10.Controls.Add(this.pictureBox35);
             this.tabPage10.Controls.Add(this.button33);
@@ -938,15 +947,15 @@
             resources.ApplyResources(this.tabPage10, "tabPage10");
             this.tabPage10.Name = "tabPage10";
             // 
-            // checkedListBox10
+            // checkedListBox_MODS_Docs_Arma3_OthersProfiles
             // 
-            this.checkedListBox10.BackColor = System.Drawing.Color.Gainsboro;
-            this.checkedListBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox10.CheckOnClick = true;
-            this.checkedListBox10.FormattingEnabled = true;
-            resources.ApplyResources(this.checkedListBox10, "checkedListBox10");
-            this.checkedListBox10.Name = "checkedListBox10";
-            this.checkedListBox10.ThreeDCheckBoxes = true;
+            this.checkedListBox_MODS_Docs_Arma3_OthersProfiles.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkedListBox_MODS_Docs_Arma3_OthersProfiles.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox_MODS_Docs_Arma3_OthersProfiles.CheckOnClick = true;
+            this.checkedListBox_MODS_Docs_Arma3_OthersProfiles.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox_MODS_Docs_Arma3_OthersProfiles, "checkedListBox_MODS_Docs_Arma3_OthersProfiles");
+            this.checkedListBox_MODS_Docs_Arma3_OthersProfiles.Name = "checkedListBox_MODS_Docs_Arma3_OthersProfiles";
+            this.checkedListBox_MODS_Docs_Arma3_OthersProfiles.ThreeDCheckBoxes = true;
             // 
             // button28
             // 
@@ -2448,12 +2457,12 @@
             this.toolTip1.SetToolTip(this.checkBox_ARMA3BattleyeOption, resources.GetString("checkBox_ARMA3BattleyeOption.ToolTip"));
             this.checkBox_ARMA3BattleyeOption.UseVisualStyleBackColor = true;
             // 
-            // button39
+            // button_ImporterMods
             // 
-            resources.ApplyResources(this.button39, "button39");
-            this.button39.Name = "button39";
-            this.button39.UseVisualStyleBackColor = true;
-            this.button39.Click += new System.EventHandler(this.button39_Click);
+            resources.ApplyResources(this.button_ImporterMods, "button_ImporterMods");
+            this.button_ImporterMods.Name = "button_ImporterMods";
+            this.button_ImporterMods.UseVisualStyleBackColor = true;
+            this.button_ImporterMods.Click += new System.EventHandler(this.button39_Click);
             // 
             // groupBox3
             // 
@@ -2513,7 +2522,7 @@
             this.groupBox6.Controls.Add(this.textBox_nomMissionMAPPING);
             this.groupBox6.Controls.Add(this.textBox_nomMissionOFFICIELLE);
             this.groupBox6.Controls.Add(this.button1);
-            this.groupBox6.Controls.Add(this.button39);
+            this.groupBox6.Controls.Add(this.button_ImporterMods);
             this.groupBox6.Controls.Add(this.checkBox_SERVEUR_PUBLIC);
             this.groupBox6.Controls.Add(this.checkBox_SERVEUR_MAPPING);
             this.groupBox6.Controls.Add(this.checkBox_SERVEUR_OFFICIEL);
@@ -2605,7 +2614,8 @@
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.FRAMEWORK.ResumeLayout(false);
+            this.TEMPLATE2.ResumeLayout(false);
+            this.TEMPLATE2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             this.ISLANDS.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -2691,13 +2701,13 @@
 
         #endregion
 
-        internal System.Windows.Forms.CheckedListBox checkedListBox1;
-        internal System.Windows.Forms.CheckedListBox checkedListBox7;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Islands;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Template;
         internal System.Windows.Forms.CheckBox checkBox1;
         internal System.Windows.Forms.CheckBox checkBox2;
         internal System.Windows.Forms.CheckBox checkBox3;
         internal System.Windows.Forms.CheckBox checkBox4;
-        internal System.Windows.Forms.CheckedListBox checkedListBox5;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_MODS_Arma3;
         internal System.Windows.Forms.CheckBox checkBox5;
         internal System.Windows.Forms.CheckBox checkBox6;
         internal System.Windows.Forms.CheckBox checkBox7;
@@ -2711,15 +2721,15 @@
         internal System.Windows.Forms.CheckBox checkBox11;
         internal System.Windows.Forms.CheckBox checkBox12;
         internal System.Windows.Forms.TabControl tabControl1;
-        internal System.Windows.Forms.CheckedListBox checkedListBox2;
-        internal System.Windows.Forms.CheckedListBox checkedListBox3;
-        internal System.Windows.Forms.CheckedListBox checkedListBox4;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Units;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Materiel;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Test;
         internal System.Windows.Forms.CheckBox checkBox8;
         internal System.Windows.Forms.RadioButton radioButton1;
         internal System.Windows.Forms.RadioButton radioButton2;
         internal System.Windows.Forms.RadioButton radioButton3;
         internal System.Windows.Forms.ComboBox comboBox4;
-        internal System.Windows.Forms.CheckedListBox checkedListBox6;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Client;
         internal System.Windows.Forms.RadioButton radioButton21;
         internal System.Windows.Forms.RadioButton radioButton20;
         internal System.Windows.Forms.ComboBox comboBox2;
@@ -2737,7 +2747,7 @@
         internal System.Windows.Forms.TabPage progExterne;
         internal System.Windows.Forms.Button button38;
         internal System.Windows.Forms.PictureBox pictureBox6;
-        internal System.Windows.Forms.Button button39;
+        internal System.Windows.Forms.Button button_ImporterMods;
         internal System.Windows.Forms.Button button17;
         internal System.Windows.Forms.Label label31;
         internal System.Windows.Forms.CheckBox checkBox19;
@@ -2842,11 +2852,11 @@
         internal System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label9;
         internal System.Windows.Forms.Button button16;
-        private System.Windows.Forms.TabPage FRAMEWORK;
+        private System.Windows.Forms.TabPage TEMPLATE2;
         internal System.Windows.Forms.PictureBox pictureBox33;
         internal System.Windows.Forms.Button button20;
         internal System.Windows.Forms.Button button21;
-        internal System.Windows.Forms.CheckedListBox checkedListBox8;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Framework;
         internal System.Windows.Forms.Button button22;
         internal System.Windows.Forms.CheckBox checkBox_HeadlessClient;
         internal System.Windows.Forms.Label label23;
@@ -2856,13 +2866,13 @@
         internal System.Windows.Forms.TabControl tabControl4;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TabPage tabPage9;
-        internal System.Windows.Forms.CheckedListBox checkedListBox9;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_MODS_Docs_Arma3;
         internal System.Windows.Forms.Button button23;
         internal System.Windows.Forms.PictureBox pictureBox34;
         internal System.Windows.Forms.Button button24;
         internal System.Windows.Forms.Button button27;
         private System.Windows.Forms.TabPage tabPage10;
-        internal System.Windows.Forms.CheckedListBox checkedListBox10;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_MODS_Docs_Arma3_OthersProfiles;
         internal System.Windows.Forms.Button button28;
         internal System.Windows.Forms.PictureBox pictureBox35;
         internal System.Windows.Forms.Button button33;
@@ -2930,7 +2940,7 @@
         internal System.Windows.Forms.PictureBox pictureBox16;
         internal System.Windows.Forms.Button button44;
         internal System.Windows.Forms.Button button46;
-        internal System.Windows.Forms.CheckedListBox checkedListBox11;
+        internal System.Windows.Forms.CheckedListBox checkedListBox_Interclan;
         public System.Windows.Forms.Button button_INTERCLANBoutonSynchro;
         private System.Windows.Forms.Label label_INTERCLANSynchro;
         internal System.Windows.Forms.ProgressBar progressBar_INTERCLANGlobalSynchro;
@@ -2980,6 +2990,7 @@
         internal System.Windows.Forms.Label label44;
         internal System.Windows.Forms.TextBox textBox19;
         internal System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.TextBox textBox21;
     }
 }
 
