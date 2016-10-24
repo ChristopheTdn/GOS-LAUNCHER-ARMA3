@@ -129,7 +129,7 @@ Rsync may be used, modified and redistributed only under the terms of
 the GNU General Public License, found in the file COPYING in this
 distribution, or at:
 
-    http://www.GOS.org/licenses/gpl.html
+    http://www.fsf.org/licenses/gpl.html
 
 
 AVAILABILITY

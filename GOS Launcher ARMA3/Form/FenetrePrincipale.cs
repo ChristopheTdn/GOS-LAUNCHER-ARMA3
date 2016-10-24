@@ -3,6 +3,8 @@ using System.Windows.Forms;
 using System.IO;
 using System.Xml;
 using System.Net;
+using System.Globalization;
+using System.Threading;
 
 
 namespace GOSLauncherA3
@@ -35,10 +37,8 @@ namespace GOSLauncherA3
 
 
         // PREPARATION INITIALISATION INTERFACE
-        GOSLauncherCore.fenetrePrincipale = this;
-   
-
-            GOSLauncherCore.DefinitionConstante();
+        GOSLauncherCore.fenetrePrincipale = this; 
+        GOSLauncherCore.DefinitionConstante();
 
             
             /*
@@ -994,7 +994,13 @@ namespace GOSLauncherA3
         {
             if (radioButton1.Checked)
             {
+                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
                 Interface.ChangeLangage("fr-FR");
+                Controls.Clear();
+                InitializeComponent();
+                Interface.dessineInterface();
+                Interface.initialiseListeProfil();
+                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
             };
         }
 
@@ -1002,19 +1008,71 @@ namespace GOSLauncherA3
         {
             if (radioButton2.Checked)
             {
+                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
                 Interface.ChangeLangage("en-US");
+                Controls.Clear();
+                InitializeComponent();
+                Interface.dessineInterface();
+                Interface.initialiseListeProfil();
+                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
             };
         }
         private void radioButton3_CheckedChanged_1(object sender, EventArgs e)
         {
             if (radioButton3.Checked)
             {
+                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
                 Interface.ChangeLangage("ru-RU");
+                Controls.Clear();
+                InitializeComponent();
+                Interface.dessineInterface();
+                Interface.initialiseListeProfil();
+                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
             };
         }
 
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton6.Checked)
+            {
+                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
+                Interface.ChangeLangage("de-DE");
+                Controls.Clear();
+                InitializeComponent();
+                Interface.dessineInterface();
+                Interface.initialiseListeProfil();
+                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
+            };
+        }
+        private void radioButton5_CheckedChanged_1(object sender, EventArgs e)
+        {
 
-           private void textBox3_TextChanged(object sender, EventArgs e)
+            if (radioButton5.Checked)
+            {
+                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
+                Interface.ChangeLangage("el-GR");
+                Controls.Clear();
+                InitializeComponent();
+                Interface.dessineInterface();
+                Interface.initialiseListeProfil();
+                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
+            };
+
+        }
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton4.Checked)
+            {
+                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
+                Interface.ChangeLangage("es-ES");
+                Controls.Clear();
+                InitializeComponent();
+                Interface.dessineInterface();
+                Interface.initialiseListeProfil();
+                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
+            };
+        }
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -1036,13 +1094,7 @@ namespace GOSLauncherA3
             System.Diagnostics.Process.Start("https://github.com/ChristopheTdn/GOS-LAUNCHER-ARMA3/issues");
         }
 
-        private void radioButton6_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton6.Checked)
-            {
-                Interface.ChangeLangage("de-DE");
-            };
-        }
+
 
         private void trackBar3_Scroll(object sender, EventArgs e)
         {
@@ -1125,15 +1177,7 @@ namespace GOSLauncherA3
             }
         }
 
-        private void radioButton5_CheckedChanged_1(object sender, EventArgs e)
-        {
-            
-             if (radioButton5.Checked)
-            {
-                Interface.ChangeLangage("el-GR");
-            };
-
-        }
+ 
 
         private void groupBox12_Enter(object sender, EventArgs e)
         {
@@ -1164,13 +1208,7 @@ namespace GOSLauncherA3
             System.Diagnostics.Process.Start("https://github.com/ChristopheTdn/GOS-LAUNCHER-ARMA3");
         }
 
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton4.Checked)
-            {
-                Interface.ChangeLangage("es-ES");
-            };
-        }
+
 
         private void label9_Click(object sender, EventArgs e)
         {

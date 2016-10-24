@@ -643,8 +643,8 @@ namespace GOSLauncherA3
                 ProgExterne.lancerFraps(); 
                 ProgExterne.lancerTrackIR();
                 string execGAME = "arma3.exe";
-                string paramBE = "";
-                if (fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked) { execGAME = "arma3battleye.exe"; paramBE = " 0 1 "; };
+                 
+                if (fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked) { execGAME = "arma3battleye.exe";};
                 // Lancement Jeu
                 reductionFenetreOnLaunch();
                 new ProcessSurveillance(GOSLauncherCore.cheminARMA3 + @"\"+execGAME, serveur + listArguments);

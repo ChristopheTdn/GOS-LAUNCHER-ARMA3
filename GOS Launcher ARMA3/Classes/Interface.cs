@@ -1,15 +1,15 @@
-﻿using Infralution.Localization;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Deployment.Application;
 using System.Diagnostics;
-using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 using Arma3Launcher;
+using System.Globalization;
+using System.Threading;
 
 namespace GOSLauncherA3
 {
@@ -377,12 +377,8 @@ namespace GOSLauncherA3
         #region LANGAGE
         static public void ChangeLangage(string langue)
         {
-            int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
-            CultureManager.ApplicationUICulture = new CultureInfo(langue);
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(langue);
             SauvegardeLangage(langue);
-            dessineInterface();
-            Interface.initialiseListeProfil();
-            GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
         }
         static private void SauvegardeLangage(string langue)
         {

@@ -319,7 +319,6 @@
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
-            this.cultureManager1 = new Infralution.Localization.CultureManager(this.components);
             this.tabControl2.SuspendLayout();
             this.ModsGOS.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -1472,9 +1471,7 @@
             // radioButton1
             // 
             resources.ApplyResources(this.radioButton1, "radioButton1");
-            this.radioButton1.Checked = true;
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.TabStop = true;
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_2);
             // 
@@ -2583,10 +2580,6 @@
             // 
             this.openFileDialog3.FileName = "openFileDialog3";
             // 
-            // cultureManager1
-            // 
-            this.cultureManager1.ManagedControl = this;
-            // 
             // FenetrePrincipale
             // 
             resources.ApplyResources(this, "$this");
@@ -2829,7 +2822,6 @@
         internal System.Windows.Forms.PictureBox pictureBox21;
         internal System.Windows.Forms.PictureBox pictureBox23;
         internal System.Windows.Forms.LinkLabel linkLabel1;
-        internal Infralution.Localization.CultureManager cultureManager1;
         internal System.Windows.Forms.PictureBox pictureBox29;
         internal System.Windows.Forms.GroupBox groupBox2;
         internal System.Windows.Forms.Label label41;

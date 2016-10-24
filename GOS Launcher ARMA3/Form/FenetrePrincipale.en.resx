@@ -153,11 +153,15 @@
   <data name="button9.Text" xml:space="preserve">
     <value>select all</value>
   </data>
-  <data name="button14.Text" xml:space="preserve">
-    <value>inverse selection</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 24</value>
   </data>
   <data name="button15.Text" xml:space="preserve">
     <value>select all</value>
+  </data>
+  <data name="button14.Text" xml:space="preserve">
+    <value>inverse selection</value>
   </data>
   <data name="button32.Text" xml:space="preserve">
     <value>Down</value>
@@ -180,7 +184,6 @@
   <data name="Priorité.Text" xml:space="preserve">
     <value>Priority</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 39</value>
   </data>
@@ -516,29 +519,38 @@ what you're doing.</value>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Parameters expert mode</value>
   </data>
-  <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 15</value>
-  </data>
   <data name="button19.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 6.75pt</value>
   </data>
   <data name="button19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 54</value>
+    <value>322, 39</value>
   </data>
   <data name="button19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 28</value>
+    <value>101, 36</value>
+  </data>
+  <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 15</value>
+  </data>
+  <data name="button18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 28</value>
+  </data>
+  <data name="pictureBox36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 6</value>
   </data>
   <data name="pictureBox23.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 39</value>
   </data>
   <data name="button38.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 88</value>
+    <value>322, 81</value>
+  </data>
+  <data name="button38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 51</value>
   </data>
   <data name="button38.Text" xml:space="preserve">
     <value>Export MOD List</value>
   </data>
   <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 78</value>
+    <value>253, 75</value>
   </data>
   <data name="checkBox11.Location" type="System.Drawing.Point, System.Drawing">
     <value>115, 54</value>
@@ -553,13 +565,10 @@ what you're doing.</value>
     <value>115, 78</value>
   </data>
   <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
+    <value>103, 17</value>
   </data>
   <data name="checkBox12.Text" xml:space="preserve">
     <value>activate TrackIR</value>
-  </data>
-  <data name="pictureBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>251, 24</value>
   </data>
   <data name="progExterne.Text" xml:space="preserve">
     <value>3rd party programs</value>
@@ -641,7 +650,7 @@ what you're doing.</value>
     <value />
   </data>
   <data name="checkBox23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 17</value>
+    <value>173, 17</value>
   </data>
   <data name="checkBox23.Text" xml:space="preserve">
     <value>Only PBO files (-filePatching)</value>
@@ -713,7 +722,7 @@ what you're doing.</value>
     <value>Launch ARMA 3</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 564</value>
+    <value>132, 611</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 13</value>
@@ -729,9 +738,6 @@ what you're doing.</value>
   </data>
   <data name="checkBox24.Text" xml:space="preserve">
     <value>force  ADMIN mode</value>
-  </data>
-  <data name="button39.Text" xml:space="preserve">
-    <value>Import MODs List</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
