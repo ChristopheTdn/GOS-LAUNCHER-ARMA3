@@ -221,12 +221,12 @@ namespace GOSLauncherA3
             }
 
             string langue = GOSLauncherCore.GetKeyValue(@"Software\Clan GOS\GOS Launcher A3\", "langage");
-            if (langue == "fr-FR") { radioButton1.Checked = true; };
-            if (langue == "en-US") { radioButton2.Checked = true; };
-            if (langue == "ru-RU") { radioButton3.Checked = true; };
-            if (langue == "de-DE") { radioButton6.Checked = true; };
-            if (langue == "el-GR") { radioButton5.Checked = true; };
-            if (langue == "es-ES") { radioButton4.Checked = true; };
+            if (langue == "fr-FR") { radioButton_Francais.Checked = true; };
+            if (langue == "en-US") { radioButton_English.Checked = true; };
+            if (langue == "ru-RU") { radioButton_russe.Checked = true; };
+            if (langue == "de-DE") { radioButton_allemand.Checked = true; };
+            if (langue == "el-GR") { radioButton_grec.Checked = true; };
+            if (langue == "es-ES") { radioButton_espagnol.Checked = true; };
         }
         
         public void initialiseProfilActif()
@@ -990,88 +990,6 @@ namespace GOSLauncherA3
         }
 
 
-        private void radioButton1_CheckedChanged_2(object sender, EventArgs e)
-        {
-            if (radioButton1.Checked)
-            {
-                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
-                Interface.ChangeLangage("fr-FR");
-                Controls.Clear();
-                InitializeComponent();
-                Interface.dessineInterface();
-                Interface.initialiseListeProfil();
-                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
-            };
-        }
-
-        private void radioButton2_CheckedChanged_2(object sender, EventArgs e)
-        {
-            if (radioButton2.Checked)
-            {
-                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
-                Interface.ChangeLangage("en-US");
-                Controls.Clear();
-                InitializeComponent();
-                Interface.dessineInterface();
-                Interface.initialiseListeProfil();
-                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
-            };
-        }
-        private void radioButton3_CheckedChanged_1(object sender, EventArgs e)
-        {
-            if (radioButton3.Checked)
-            {
-                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
-                Interface.ChangeLangage("ru-RU");
-                Controls.Clear();
-                InitializeComponent();
-                Interface.dessineInterface();
-                Interface.initialiseListeProfil();
-                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
-            };
-        }
-
-        private void radioButton6_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton6.Checked)
-            {
-                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
-                Interface.ChangeLangage("de-DE");
-                Controls.Clear();
-                InitializeComponent();
-                Interface.dessineInterface();
-                Interface.initialiseListeProfil();
-                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
-            };
-        }
-        private void radioButton5_CheckedChanged_1(object sender, EventArgs e)
-        {
-
-            if (radioButton5.Checked)
-            {
-                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
-                Interface.ChangeLangage("el-GR");
-                Controls.Clear();
-                InitializeComponent();
-                Interface.dessineInterface();
-                Interface.initialiseListeProfil();
-                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
-            };
-
-        }
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton4.Checked)
-            {
-                int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
-                Interface.ChangeLangage("es-ES");
-                Controls.Clear();
-                InitializeComponent();
-                Interface.dessineInterface();
-                Interface.initialiseListeProfil();
-                GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
-            };
-        }
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
@@ -1597,6 +1515,48 @@ namespace GOSLauncherA3
         {
             GOSLauncherCore.ezbm.saveMission();
         }
+        // gestion Langage Interface
+        private void button_ValiderLangage_Click(object sender, EventArgs e)
+        {
+            string langage = "fr-FR";
+            int i = GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex;
+
+            if (radioButton_Francais.Checked) langage= "fr-FR";
+            if (radioButton_allemand.Checked) langage = "de-DE";
+            if (radioButton_English.Checked) langage = "en-US";
+            if (radioButton_grec.Checked) langage = "el-GR";
+            if (radioButton_espagnol.Checked) langage = "es-ES";
+            if (radioButton_russe.Checked) langage = "ru-RU";
+            Interface.ChangeLangage(langage);
+            Controls.Clear();
+            InitializeComponent();
+            Interface.dessineInterface();
+            Interface.initialiseListeProfil();
+            GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = i;
+            switch (langage)
+            {
+                case "de-DE":
+                    radioButton_allemand.Checked = true;
+                    break;
+                case "en-US":
+                    radioButton_English.Checked = true;
+                    break;
+                case "ru-RU":
+                    radioButton_russe.Checked = true;
+                    break;
+                case "el-GR":
+                    radioButton_grec.Checked = true;
+                    break;
+                case "es-ES":
+                    radioButton_espagnol.Checked = true;
+                    break;
+                default:
+                    radioButton_Francais.Checked = true;
+                    break;
+            }
+        }
+
+
     }
 }
     

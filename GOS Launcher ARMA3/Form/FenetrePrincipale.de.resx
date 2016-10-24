@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Priorité.Text" xml:space="preserve">
+    <value>Priorität</value>
+  </data>
+  <data name="Options.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
   <data name="button13.Text" xml:space="preserve">
     <value>Auswahl umkehren</value>
   </data>
@@ -153,11 +159,11 @@
   <data name="button9.Text" xml:space="preserve">
     <value>Alle auswählen</value>
   </data>
-  <data name="button14.Text" xml:space="preserve">
-    <value>Auswahl umkehren</value>
-  </data>
   <data name="button15.Text" xml:space="preserve">
     <value>Alle auswählen</value>
+  </data>
+  <data name="button14.Text" xml:space="preserve">
+    <value>Auswahl umkehren</value>
   </data>
   <data name="button32.Text" xml:space="preserve">
     <value>niedrige</value>
@@ -165,8 +171,8 @@
   <data name="button31.Text" xml:space="preserve">
     <value>top</value>
   </data>
-  <data name="Priorité.Text" xml:space="preserve">
-    <value>Priorität</value>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Parameter Experteneinstellung</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
@@ -176,7 +182,7 @@
     <value>Geometrie Belastung</value>
   </data>
   <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 13</value>
+    <value>92, 13</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
     <value>Textur Belastung</value>
@@ -526,11 +532,11 @@ Sie tun.</value>
   <data name="checkBox7.Text" xml:space="preserve">
     <value>Anzahl CPU-Kerne</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Parameter Experteneinstellung</value>
+  <data name="progExterne.Text" xml:space="preserve">
+    <value>Zusatzprogramme</value>
   </data>
   <data name="checkBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 50</value>
+    <value>18, 87</value>
   </data>
   <data name="checkBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 17</value>
@@ -539,16 +545,13 @@ Sie tun.</value>
     <value>FRAPS aktivieren</value>
   </data>
   <data name="checkBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 73</value>
+    <value>18, 110</value>
   </data>
   <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 17</value>
+    <value>114, 17</value>
   </data>
   <data name="checkBox12.Text" xml:space="preserve">
     <value>TrackIR aktivieren</value>
-  </data>
-  <data name="progExterne.Text" xml:space="preserve">
-    <value>Zusatzprogramme</value>
   </data>
   <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 13</value>
@@ -565,11 +568,14 @@ Sie tun.</value>
   <data name="label5.Text" xml:space="preserve">
     <value>Profil definierten Favoriten !</value>
   </data>
+  <data name="Langage.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
   <data name="pictureBox22.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 38</value>
   </data>
-  <data name="Langage.Text" xml:space="preserve">
-    <value>Sprache</value>
+  <data name="Apropos.Text" xml:space="preserve">
+    <value>Info</value>
   </data>
   <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>328, 29</value>
@@ -581,7 +587,7 @@ Sie tun.</value>
     <value>Report in issue</value>
   </data>
   <data name="pictureBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 29</value>
+    <value>10, 6</value>
   </data>
   <data name="linkLabel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 118</value>
@@ -604,8 +610,8 @@ Sie tun.</value>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 46</value>
   </data>
-  <data name="Apropos.Text" xml:space="preserve">
-    <value>Info</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Parameter</value>
   </data>
   <data name="checkBox23.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 17</value>
@@ -649,12 +655,6 @@ Sie tun.</value>
   <data name="checkBox3.Text" xml:space="preserve">
     <value>Fenstermodus</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Parameter</value>
-  </data>
-  <data name="Options.Text" xml:space="preserve">
-    <value>Optionen</value>
-  </data>
   <data name="checkBox19.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 17</value>
   </data>
@@ -663,6 +663,9 @@ Sie tun.</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>ARMA 3 starten</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 612</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 13</value>
@@ -678,9 +681,6 @@ Sie tun.</value>
   </data>
   <data name="checkBox24.Text" xml:space="preserve">
     <value>Admin Mode Kraft</value>
-  </data>
-  <data name="button39.Text" xml:space="preserve">
-    <value>MOD's Liste importeren</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

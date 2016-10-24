@@ -3938,6 +3938,30 @@ Mission</value>
   <data name="&gt;&gt;profil.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="button_ValiderLangage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 109</value>
+  </data>
+  <data name="button_ValiderLangage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_ValiderLangage.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="button_ValiderLangage.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;button_ValiderLangage.Name" xml:space="preserve">
+    <value>button_ValiderLangage</value>
+  </data>
+  <data name="&gt;&gt;button_ValiderLangage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_ValiderLangage.Parent" xml:space="preserve">
+    <value>Langage</value>
+  </data>
+  <data name="&gt;&gt;button_ValiderLangage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="pictureBox22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -3963,37 +3987,37 @@ Mission</value>
     <value>Langage</value>
   </data>
   <data name="&gt;&gt;pictureBox22.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButton_Francais.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButton_Francais.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="radioButton_Francais.Location" type="System.Drawing.Point, System.Drawing">
     <value>134, 27</value>
   </data>
-  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="radioButton_Francais.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 17</value>
   </data>
-  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
+  <data name="radioButton_Francais.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="radioButton1.Text" xml:space="preserve">
+  <data name="radioButton_Francais.Text" xml:space="preserve">
     <value>Français</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
-    <value>radioButton1</value>
+  <data name="&gt;&gt;radioButton_Francais.Name" xml:space="preserve">
+    <value>radioButton_Francais</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_Francais.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_Francais.Parent" xml:space="preserve">
     <value>Langage</value>
   </data>
-  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;radioButton_Francais.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="pictureBox14.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4008,7 +4032,7 @@ Mission</value>
     <value />
   </data>
   <data name="pictureBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 56</value>
+    <value>222, 53</value>
   </data>
   <data name="pictureBox14.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 20</value>
@@ -4029,7 +4053,7 @@ Mission</value>
     <value>Langage</value>
   </data>
   <data name="&gt;&gt;pictureBox14.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="pictureBox20.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4044,7 +4068,7 @@ Mission</value>
     <value />
   </data>
   <data name="pictureBox20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 56</value>
+    <value>390, 53</value>
   </data>
   <data name="pictureBox20.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 20</value>
@@ -4065,97 +4089,97 @@ Mission</value>
     <value>Langage</value>
   </data>
   <data name="&gt;&gt;pictureBox20.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
-  <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButton_English.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButton_English.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 59</value>
+  <data name="radioButton_English.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 53</value>
   </data>
-  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="radioButton_English.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 17</value>
   </data>
-  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
+  <data name="radioButton_English.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="radioButton2.Text" xml:space="preserve">
+  <data name="radioButton_English.Text" xml:space="preserve">
     <value>English</value>
   </data>
-  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
-    <value>radioButton2</value>
+  <data name="&gt;&gt;radioButton_English.Name" xml:space="preserve">
+    <value>radioButton_English</value>
   </data>
-  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_English.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_English.Parent" xml:space="preserve">
     <value>Langage</value>
   </data>
-  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="radioButton5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 30</value>
-  </data>
-  <data name="radioButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 17</value>
-  </data>
-  <data name="radioButton5.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="radioButton5.Text" xml:space="preserve">
-    <value>Ελληνικά</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Name" xml:space="preserve">
-    <value>radioButton5</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Parent" xml:space="preserve">
-    <value>Langage</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_English.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="radioButton4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButton_grec.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButton_grec.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 88</value>
+  <data name="radioButton_grec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 30</value>
   </data>
-  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 17</value>
+  <data name="radioButton_grec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
   </data>
-  <data name="radioButton4.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
+  <data name="radioButton_grec.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
   </data>
-  <data name="radioButton4.Text" xml:space="preserve">
-    <value>Español</value>
+  <data name="radioButton_grec.Text" xml:space="preserve">
+    <value>Ελληνικά</value>
   </data>
-  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
-    <value>radioButton4</value>
+  <data name="&gt;&gt;radioButton_grec.Name" xml:space="preserve">
+    <value>radioButton_grec</value>
   </data>
-  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_grec.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_grec.Parent" xml:space="preserve">
     <value>Langage</value>
   </data>
-  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_grec.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="radioButton_espagnol.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_espagnol.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_espagnol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 82</value>
+  </data>
+  <data name="radioButton_espagnol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="radioButton_espagnol.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="radioButton_espagnol.Text" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="&gt;&gt;radioButton_espagnol.Name" xml:space="preserve">
+    <value>radioButton_espagnol</value>
+  </data>
+  <data name="&gt;&gt;radioButton_espagnol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_espagnol.Parent" xml:space="preserve">
+    <value>Langage</value>
+  </data>
+  <data name="&gt;&gt;radioButton_espagnol.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="pictureBox15.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4191,37 +4215,37 @@ Mission</value>
     <value>Langage</value>
   </data>
   <data name="&gt;&gt;pictureBox15.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
-  <data name="radioButton6.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButton_allemand.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButton_allemand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radioButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 59</value>
+  <data name="radioButton_allemand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 53</value>
   </data>
-  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="radioButton_allemand.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 17</value>
   </data>
-  <data name="radioButton6.TabIndex" type="System.Int32, mscorlib">
+  <data name="radioButton_allemand.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
-  <data name="radioButton6.Text" xml:space="preserve">
+  <data name="radioButton_allemand.Text" xml:space="preserve">
     <value>Deutsch</value>
   </data>
-  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
-    <value>radioButton6</value>
+  <data name="&gt;&gt;radioButton_allemand.Name" xml:space="preserve">
+    <value>radioButton_allemand</value>
   </data>
-  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_allemand.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_allemand.Parent" xml:space="preserve">
     <value>Langage</value>
   </data>
-  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;radioButton_allemand.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="pictureBox19.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4257,7 +4281,7 @@ Mission</value>
     <value>Langage</value>
   </data>
   <data name="&gt;&gt;pictureBox19.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="pictureBox27.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4272,7 +4296,7 @@ Mission</value>
     <value />
   </data>
   <data name="pictureBox27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 88</value>
+    <value>222, 79</value>
   </data>
   <data name="pictureBox27.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 19</value>
@@ -4293,37 +4317,37 @@ Mission</value>
     <value>Langage</value>
   </data>
   <data name="&gt;&gt;pictureBox27.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
-  <data name="radioButton3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButton_russe.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButton_russe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 90</value>
+  <data name="radioButton_russe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 79</value>
   </data>
-  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="radioButton_russe.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 17</value>
   </data>
-  <data name="radioButton3.TabIndex" type="System.Int32, mscorlib">
+  <data name="radioButton_russe.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
   </data>
-  <data name="radioButton3.Text" xml:space="preserve">
+  <data name="radioButton_russe.Text" xml:space="preserve">
     <value>Pусский</value>
   </data>
-  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
-    <value>radioButton3</value>
+  <data name="&gt;&gt;radioButton_russe.Name" xml:space="preserve">
+    <value>radioButton_russe</value>
   </data>
-  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_russe.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_russe.Parent" xml:space="preserve">
     <value>Langage</value>
   </data>
-  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;radioButton_russe.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="pictureBox18.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4338,7 +4362,7 @@ Mission</value>
     <value />
   </data>
   <data name="pictureBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 88</value>
+    <value>389, 79</value>
   </data>
   <data name="pictureBox18.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 20</value>
@@ -4359,7 +4383,7 @@ Mission</value>
     <value>Langage</value>
   </data>
   <data name="&gt;&gt;pictureBox18.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="Langage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -7887,7 +7911,7 @@ TEAMSPEAK</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="label31.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -7956,7 +7980,7 @@ TEAMSPEAK</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox19.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>
@@ -8020,7 +8044,7 @@ Arma 3</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBox4.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -8062,7 +8086,7 @@ Arma 3</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>10</value>
   </data>
   <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -8093,7 +8117,7 @@ Arma 3</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="checkBox24.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8612,7 +8636,7 @@ Arma 3</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>201, 17</value>

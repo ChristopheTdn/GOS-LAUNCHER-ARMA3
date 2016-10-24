@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="GOSLauncherA3.exe" version="1.12.1024.336" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="GOSLauncherA3.exe" version="1.13.1024.337" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="GOSLauncherA3.ico" asmv2:publisher="Clan G.O.S" co.v1:suiteName="Clan GOS Developpement" asmv2:product="GOS Launcher Arma 3 Edition" asmv2:supportUrl="http://www.clan-gos.fr/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -44,14 +44,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GOSLauncherA3.exe" size="2886144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GOSLauncherA3.exe" size="2888192">
       <assemblyIdentity name="GOSLauncherA3" version="1.10.823.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LjepzXNu5Bl3YEM/33E3P1J1kY8xQcaGEw4S1ZWwRlM=</dsig:DigestValue>
+        <dsig:DigestValue>LovjYUYTfnRN8lsWdpcVyIQi6aTGPCsWhPq7f4i1s3M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,7 +63,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2G93pFsvW/hkdceWRXn+VWs73/PbFn/VVmdqBcNVufQ=</dsig:DigestValue>
+        <dsig:DigestValue>pBbbkXE9VtKz4gud9E3kZVWAnShtCyK6Ln/1DQ8pVKk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -75,19 +75,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZuUXttmM0FdmLwCz5TLNV72F08ZvrRVXPpIkzE51g6U=</dsig:DigestValue>
+        <dsig:DigestValue>/6rHtXA3HkU9BzqEvMuh42af1bV9CPHrC5JYWAHk6AA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="el-GR\GOSLauncherA3.resources.dll" size="123392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="el\GOSLauncherA3.resources.dll" size="195584">
+      <assemblyIdentity name="GOSLauncherA3.resources" version="1.10.823.0" language="el" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>O4y5FSVxhCzN7ZVYI3ZuZKHo7euhKkRLy6DKrR1bASw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="el-GR\GOSLauncherA3.resources.dll" size="123904">
       <assemblyIdentity name="GOSLauncherA3.resources" version="1.10.823.0" language="el-GR" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>q9P1+uBJVaJ165rXSuvvGHbj9KyClxREza5iTd3BXpI=</dsig:DigestValue>
+        <dsig:DigestValue>27xL4Wp8tlYwEs5q58JktJcSn1Zm4w02FtwD5Ostyn8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -99,7 +111,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9p3nZwA+POk+c774++Y39Kmgpl2aLcEEGc0PnTlVv58=</dsig:DigestValue>
+        <dsig:DigestValue>rFDMl/mUtNOZOZj/fmKfNccKDMrWQQvrnusH2aFXoQQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -111,19 +123,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0MdKKWX+omHA5BUHJVX9/jYjvYpM1KckzBFdk3K4odA=</dsig:DigestValue>
+        <dsig:DigestValue>SfODc1QwzeNPY0w0mPXJnIi0g+gEZdcExuTdhEuFoBA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es-ES\GOSLauncherA3.resources.dll" size="122368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\GOSLauncherA3.resources.dll" size="195584">
+      <assemblyIdentity name="GOSLauncherA3.resources" version="1.10.823.0" language="es" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>imqS7elMf34DNoLW1mSzap2xkSq8IN/Dq9p8OqP01y4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es-ES\GOSLauncherA3.resources.dll" size="122880">
       <assemblyIdentity name="GOSLauncherA3.resources" version="1.10.823.0" language="es-ES" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CwGcgTTXorSU9a51BNCcDiJc7T2YZZHRiHh43biPgIE=</dsig:DigestValue>
+        <dsig:DigestValue>IGcXpusfMP6mfpiBjmN86VVckgMmK8AYmXY68XH0DFk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -135,7 +159,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rqlylufnqii9kpkVNwAI7dkDBoWBsSK2rTLh7WPLXx4=</dsig:DigestValue>
+        <dsig:DigestValue>j4B3awJf9qdtFd+akfKPq14YtQoRTJB/O+64oliIRps=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -147,7 +171,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CWGLObvWjlQOCAn3j60MUMGHvFWaDs1AgsQqrWEjXoU=</dsig:DigestValue>
+        <dsig:DigestValue>ejWxYaM6pP+hz0ITt/8QPoMm/L5qZ3S+FBbQ/aE9JcI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

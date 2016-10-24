@@ -36,8 +36,8 @@
     <SuiteName>Clan GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>337</ApplicationRevision>
-    <ApplicationVersion>1.12.1024.%2a</ApplicationVersion>
+    <ApplicationRevision>338</ApplicationRevision>
+    <ApplicationVersion>1.13.1024.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -223,6 +223,9 @@
     <EmbeddedResource Include="Form\FenetrePrincipale.el-GR.resx">
       <DependentUpon>FenetrePrincipale.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.el.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\FenetrePrincipale.en-US.resx">
       <DependentUpon>FenetrePrincipale.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,6 +234,9 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FenetrePrincipale.es-ES.resx">
+      <DependentUpon>FenetrePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FenetrePrincipale.es.resx">
       <DependentUpon>FenetrePrincipale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FenetrePrincipale.fr-FR.resx">

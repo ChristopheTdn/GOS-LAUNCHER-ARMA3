@@ -157,18 +157,19 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.Langage = new System.Windows.Forms.TabPage();
+            this.button_ValiderLangage = new System.Windows.Forms.Button();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton_Francais = new System.Windows.Forms.RadioButton();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton_English = new System.Windows.Forms.RadioButton();
+            this.radioButton_grec = new System.Windows.Forms.RadioButton();
+            this.radioButton_espagnol = new System.Windows.Forms.RadioButton();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton_allemand = new System.Windows.Forms.RadioButton();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton_russe = new System.Windows.Forms.RadioButton();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.Apropos = new System.Windows.Forms.TabPage();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -1445,21 +1446,29 @@
             // Langage
             // 
             this.Langage.BackColor = System.Drawing.Color.Gainsboro;
+            this.Langage.Controls.Add(this.button_ValiderLangage);
             this.Langage.Controls.Add(this.pictureBox22);
-            this.Langage.Controls.Add(this.radioButton1);
+            this.Langage.Controls.Add(this.radioButton_Francais);
             this.Langage.Controls.Add(this.pictureBox14);
             this.Langage.Controls.Add(this.pictureBox20);
-            this.Langage.Controls.Add(this.radioButton2);
-            this.Langage.Controls.Add(this.radioButton5);
-            this.Langage.Controls.Add(this.radioButton4);
+            this.Langage.Controls.Add(this.radioButton_English);
+            this.Langage.Controls.Add(this.radioButton_grec);
+            this.Langage.Controls.Add(this.radioButton_espagnol);
             this.Langage.Controls.Add(this.pictureBox15);
-            this.Langage.Controls.Add(this.radioButton6);
+            this.Langage.Controls.Add(this.radioButton_allemand);
             this.Langage.Controls.Add(this.pictureBox19);
             this.Langage.Controls.Add(this.pictureBox27);
-            this.Langage.Controls.Add(this.radioButton3);
+            this.Langage.Controls.Add(this.radioButton_russe);
             this.Langage.Controls.Add(this.pictureBox18);
             resources.ApplyResources(this.Langage, "Langage");
             this.Langage.Name = "Langage";
+            // 
+            // button_ValiderLangage
+            // 
+            resources.ApplyResources(this.button_ValiderLangage, "button_ValiderLangage");
+            this.button_ValiderLangage.Name = "button_ValiderLangage";
+            this.button_ValiderLangage.UseVisualStyleBackColor = true;
+            this.button_ValiderLangage.Click += new System.EventHandler(this.button_ValiderLangage_Click);
             // 
             // pictureBox22
             // 
@@ -1468,12 +1477,11 @@
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.TabStop = false;
             // 
-            // radioButton1
+            // radioButton_Francais
             // 
-            resources.ApplyResources(this.radioButton1, "radioButton1");
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_2);
+            resources.ApplyResources(this.radioButton_Francais, "radioButton_Francais");
+            this.radioButton_Francais.Name = "radioButton_Francais";
+            this.radioButton_Francais.UseVisualStyleBackColor = true;
             // 
             // pictureBox14
             // 
@@ -1489,26 +1497,23 @@
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.TabStop = false;
             // 
-            // radioButton2
+            // radioButton_English
             // 
-            resources.ApplyResources(this.radioButton2, "radioButton2");
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged_2);
+            resources.ApplyResources(this.radioButton_English, "radioButton_English");
+            this.radioButton_English.Name = "radioButton_English";
+            this.radioButton_English.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // radioButton_grec
             // 
-            resources.ApplyResources(this.radioButton5, "radioButton5");
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged_1);
+            resources.ApplyResources(this.radioButton_grec, "radioButton_grec");
+            this.radioButton_grec.Name = "radioButton_grec";
+            this.radioButton_grec.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // radioButton_espagnol
             // 
-            resources.ApplyResources(this.radioButton4, "radioButton4");
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            resources.ApplyResources(this.radioButton_espagnol, "radioButton_espagnol");
+            this.radioButton_espagnol.Name = "radioButton_espagnol";
+            this.radioButton_espagnol.UseVisualStyleBackColor = true;
             // 
             // pictureBox15
             // 
@@ -1517,12 +1522,11 @@
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.TabStop = false;
             // 
-            // radioButton6
+            // radioButton_allemand
             // 
-            resources.ApplyResources(this.radioButton6, "radioButton6");
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            resources.ApplyResources(this.radioButton_allemand, "radioButton_allemand");
+            this.radioButton_allemand.Name = "radioButton_allemand";
+            this.radioButton_allemand.UseVisualStyleBackColor = true;
             // 
             // pictureBox19
             // 
@@ -1538,12 +1542,11 @@
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.TabStop = false;
             // 
-            // radioButton3
+            // radioButton_russe
             // 
-            resources.ApplyResources(this.radioButton3, "radioButton3");
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged_1);
+            resources.ApplyResources(this.radioButton_russe, "radioButton_russe");
+            this.radioButton_russe.Name = "radioButton_russe";
+            this.radioButton_russe.UseVisualStyleBackColor = true;
             // 
             // pictureBox18
             // 
@@ -2589,12 +2592,12 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.checkBox24);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.checkBox19);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.tabControl2);
+            this.Controls.Add(this.label4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FenetrePrincipale";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
@@ -2718,9 +2721,9 @@
         internal System.Windows.Forms.CheckedListBox checkedListBox_Materiel;
         internal System.Windows.Forms.CheckedListBox checkedListBox_Test;
         internal System.Windows.Forms.CheckBox checkBox8;
-        internal System.Windows.Forms.RadioButton radioButton1;
-        internal System.Windows.Forms.RadioButton radioButton2;
-        internal System.Windows.Forms.RadioButton radioButton3;
+        internal System.Windows.Forms.RadioButton radioButton_Francais;
+        internal System.Windows.Forms.RadioButton radioButton_English;
+        internal System.Windows.Forms.RadioButton radioButton_russe;
         internal System.Windows.Forms.ComboBox comboBox4;
         internal System.Windows.Forms.CheckedListBox checkedListBox_Client;
         internal System.Windows.Forms.RadioButton radioButton21;
@@ -2734,9 +2737,9 @@
         internal System.Windows.Forms.TabPage SynchroZONE;
         internal System.Windows.Forms.ToolTip toolTip1;
         internal System.Windows.Forms.TabPage profil;
-        internal System.Windows.Forms.RadioButton radioButton6;
-        internal System.Windows.Forms.RadioButton radioButton4;
-        internal System.Windows.Forms.RadioButton radioButton5;
+        internal System.Windows.Forms.RadioButton radioButton_allemand;
+        internal System.Windows.Forms.RadioButton radioButton_espagnol;
+        internal System.Windows.Forms.RadioButton radioButton_grec;
         internal System.Windows.Forms.TabPage progExterne;
         internal System.Windows.Forms.Button button38;
         internal System.Windows.Forms.PictureBox pictureBox6;
@@ -2983,6 +2986,7 @@
         internal System.Windows.Forms.TextBox textBox19;
         internal System.Windows.Forms.PictureBox pictureBox32;
         private System.Windows.Forms.TextBox textBox21;
+        internal System.Windows.Forms.Button button_ValiderLangage;
     }
 }
 

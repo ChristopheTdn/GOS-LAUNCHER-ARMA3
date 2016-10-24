@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Priorité.Text" xml:space="preserve">
+    <value>Προτεραιότητα</value>
+  </data>
+  <data name="Options.Text" xml:space="preserve">
+    <value>Επιλογές</value>
+  </data>
   <data name="button13.Text" xml:space="preserve">
     <value>Αντιστροφή επιλογής</value>
   </data>
@@ -165,8 +171,8 @@
   <data name="button31.Text" xml:space="preserve">
     <value>Επάνω</value>
   </data>
-  <data name="Priorité.Text" xml:space="preserve">
-    <value>Προτεραιότητα</value>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Παράμετροι expert</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
@@ -522,8 +528,8 @@
   <data name="checkBox7.Text" xml:space="preserve">
     <value>Αριθμός CPU</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Παράμετροι expert</value>
+  <data name="progExterne.Text" xml:space="preserve">
+    <value>Εξωτερικά προγράμματα</value>
   </data>
   <data name="checkBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 17</value>
@@ -532,13 +538,13 @@
     <value>Ενεργοποίηση Fraps</value>
   </data>
   <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 17</value>
+    <value>145, 17</value>
   </data>
   <data name="checkBox12.Text" xml:space="preserve">
     <value>Ενεργοποίηση TrackIR5</value>
   </data>
-  <data name="progExterne.Text" xml:space="preserve">
-    <value>Εξωτερικά προγράμματα</value>
+  <data name="profil.Text" xml:space="preserve">
+    <value>Προφίλ</value>
   </data>
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
     <value>203, 97</value>
@@ -555,11 +561,11 @@
   <data name="label5.Text" xml:space="preserve">
     <value>Ορίζεται αγαπημένα!</value>
   </data>
-  <data name="profil.Text" xml:space="preserve">
-    <value>Προφίλ</value>
-  </data>
   <data name="Langage.Text" xml:space="preserve">
     <value>Γλώσσα</value>
+  </data>
+  <data name="Apropos.Text" xml:space="preserve">
+    <value>Πληροφορίες</value>
   </data>
   <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>326, 29</value>
@@ -573,11 +579,11 @@
   <data name="button17.Text" xml:space="preserve">
     <value>Unlock</value>
   </data>
-  <data name="Apropos.Text" xml:space="preserve">
-    <value>Πληροφορίες</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Παράμετροι</value>
   </data>
   <data name="checkBox23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 17</value>
+    <value>193, 17</value>
   </data>
   <data name="checkBox23.Text" xml:space="preserve">
     <value>Μόνο PBO αρχεία (-filePatching)</value>
@@ -630,12 +636,6 @@
   <data name="checkBox3.Text" xml:space="preserve">
     <value>Λειτουργία σε κατάσταση παράθυρου</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Παράμετροι</value>
-  </data>
-  <data name="Options.Text" xml:space="preserve">
-    <value>Επιλογές</value>
-  </data>
   <data name="button16.Location" type="System.Drawing.Point, System.Drawing">
     <value>357, 517</value>
   </data>
@@ -643,7 +643,7 @@
     <value>112, 48</value>
   </data>
   <data name="checkBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 607</value>
+    <value>12, 608</value>
   </data>
   <data name="checkBox19.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 30</value>
@@ -655,8 +655,11 @@
   <data name="button1.Text" xml:space="preserve">
     <value>Εκκίνηση ARMA 3</value>
   </data>
+  <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 570</value>
+  </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 585</value>
+    <value>134, 608</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 13</value>
@@ -665,13 +668,16 @@
     <value>Profil saved !</value>
   </data>
   <data name="checkBox24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 584</value>
+    <value>12, 633</value>
   </data>
   <data name="checkBox24.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 17</value>
   </data>
   <data name="checkBox24.Text" xml:space="preserve">
     <value>Διαχειριστής λειτουργία</value>
+  </data>
+  <data name="checkBox_ARMA3BattleyeOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 592</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>351, 1</value>
