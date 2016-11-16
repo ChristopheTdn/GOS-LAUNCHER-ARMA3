@@ -15,23 +15,10 @@ namespace GOSLauncherA3
         {
             InitializeComponent();
         }
-
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void SplashScreen_Load(object sender, EventArgs e)
         {
-            timer1.Start();
+            
         }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
 
     }
 }

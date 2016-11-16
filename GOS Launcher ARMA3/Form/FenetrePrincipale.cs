@@ -22,7 +22,8 @@ namespace GOSLauncherA3
         }
 
         private void FenetrePrincipale_Load(object sender, EventArgs e)
-        {        
+        {
+            splashscreen.Show();      
             CheckForIllegalCrossThreadCalls = false;
             label8.TextChanged += label8_TextChanged;
             label45.TextChanged += label45_TextChanged;
@@ -57,6 +58,7 @@ namespace GOSLauncherA3
 
             // tray icon
             //if (argumentGOSLauncher.Length > 0) ResidentAdmin.initialiseTrayIcon();
+            splashscreen.Close();
         }
 
 
