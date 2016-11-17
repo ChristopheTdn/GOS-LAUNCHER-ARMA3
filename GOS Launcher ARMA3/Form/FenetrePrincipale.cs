@@ -863,7 +863,6 @@ namespace GOSLauncherA3
                 if (nomProfil == nomProfilATester) { nomProfilValid = false; }
 
             }
-
             if (nomProfil == "") { nomProfilValid = false; }
             if (nomProfilValid)
             {
@@ -1504,6 +1503,7 @@ namespace GOSLauncherA3
             }
             else
             {
+
             }
         }
 
