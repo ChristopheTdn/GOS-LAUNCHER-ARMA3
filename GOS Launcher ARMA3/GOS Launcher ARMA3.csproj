@@ -36,7 +36,7 @@
     <SuiteName>Clan GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>339</ApplicationRevision>
+    <ApplicationRevision>340</ApplicationRevision>
     <ApplicationVersion>1.13.1024.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -193,6 +193,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form\renameProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\renameProfil.Designer.cs">
+      <DependentUpon>renameProfil.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form\Dial_ChangeLog.resx">
       <DependentUpon>Dial_ChangeLog.cs</DependentUpon>
     </EmbeddedResource>
@@ -260,6 +266,9 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form\renameProfil.resx">
+      <DependentUpon>renameProfil.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\app.manifest">
       <SubType>Designer</SubType>
@@ -292,6 +301,7 @@
     <None Include="gfx\camo_image\MAK Leopard F.jpg" />
     <None Include="gfx\camo_image\MAK Leopard A.jpg" />
     <None Include="gfx\rename.png" />
+    <None Include="gfx\copier-modifier-icone-8863-48.png" />
     <Content Include="GOSLauncherA3.ico" />
     <Content Include="mikero\DePbo.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

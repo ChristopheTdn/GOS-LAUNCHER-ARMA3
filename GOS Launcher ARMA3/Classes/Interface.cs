@@ -460,14 +460,14 @@ namespace GOSLauncherA3
 
             item.Text = textAffiche;
             item.Value = nomProfil;
-            GOSLauncherCore.fenetrePrincipale.listBox1.Items.Add(item);
+            GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.Items.Add(item);
         }
         public static void initialiseListeProfil()
         {
             string[] listeProfil = Directory.GetFiles(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\", "*.profil.xml", SearchOption.TopDirectoryOnly);
             string textMenuProfil = GOSLauncherCore.fenetrePrincipale.comboBox4.Text;
             if (textMenuProfil == "") { textMenuProfil = "defaut"; }
-            GOSLauncherCore.fenetrePrincipale.listBox1.Items.Clear();
+            GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.Items.Clear();
             GOSLauncherCore.fenetrePrincipale.comboBox4.Items.Clear();
             int compteur = 0;
             foreach (var ligne in listeProfil)

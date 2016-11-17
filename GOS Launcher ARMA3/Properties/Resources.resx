@@ -121,50 +121,113 @@
   <data name="royaumeunis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\royaumeunis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MAK_Leopard_F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK Leopard F.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="disquette" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\disquette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="boite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\case-divers-icone-9631-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MAK_CCE_std" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK CCE std.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Infralution_Localization" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\dll\Infralution.Localization.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MAK_DAG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK DAG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\Island Stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="point_exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\point_exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_Tiger_Golden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK Tiger Golden.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="idee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\la-gestion-pouvoir-preferences-systeme-icone-5042-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="allemagne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\allemagne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ace_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\Ace_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splashscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\splashscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="teamspeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\teamspeak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\grece.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="russe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\russe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_DPM_ARID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK DPM ARID.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="travaux" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\utilisateur-icone-8690-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TaskForceRadio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\TaskForceRadio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_Leopard_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK Leopard A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="france" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\france.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="winscp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\winscp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MAK_Tiger_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK Tiger Green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rename" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\rename.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="valide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\crochet-ok-oui-icone-5594-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hexa_soldier_radio_mini_art" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\hexa_soldier_radio_mini_art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CE_mixte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\ce mixte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_RU_VSR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK RU VSR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_CCE_Mixte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK CCE Mixte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CE_desert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\CE desert.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconeVertPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\ajouter-vert-plus-icone-9105-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ace_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\Ace_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="globe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\globe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MAK_DPM_TROPIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK DPM TROPIC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="profil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\profil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_goslauncher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\logo-goslauncher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_RU_Surpat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK RU Surpat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GOSLauncherA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\GOSLauncherA3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoGOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\logo-gos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="italie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\italie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +235,14 @@
   <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\fermer-gtk-icone-6139-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AlphaOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\AlphaOne.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ajouterListe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\ajouterListe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_RU_Kamish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK RU Kamish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="favoris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\mettre-en-favori-favori-etoile-icone-3996-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,14 +256,23 @@
   <data name="solution1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\solution1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="valide" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\crochet-ok-oui-icone-5594-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CE_urbain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\CE urbain.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAK_RU_Rastr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\camo_image\MAK RU Rastr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="programme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\programme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="espagne" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\espagne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hangar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\Hangar.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,88 +280,13 @@
   <data name="danger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\gfx\danger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="islands" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\Island Stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="allemagne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\allemagne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grece" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\grece.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="winscp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\winscp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Infralution_Localization" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\dll\Infralution.Localization.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="splashscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\splashscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GOSLauncherA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\GOSLauncherA3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TaskForceRadio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\TaskForceRadio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AlphaOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\AlphaOne.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CE_desert" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\CE desert.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CE_urbain" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\CE urbain.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_CCE_Mixte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK CCE Mixte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_CCE_std" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK CCE std.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_DAG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK DAG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_DPM_ARID" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK DPM ARID.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_DPM_TROPIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK DPM TROPIC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_Tiger_Golden" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK Tiger Golden.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_Tiger_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK Tiger Green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_RU_Kamish" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK RU Kamish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_RU_Rastr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK RU Rastr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_RU_Surpat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK RU Surpat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_RU_VSR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK RU VSR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoGOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\logo-gos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo_goslauncher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\logo-goslauncher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_Leopard_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK Leopard A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAK_Leopard_F" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\MAK Leopard F.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rename" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\rename.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CE_mixte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\gfx\camo_image\ce mixte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="copier-modifier-icone-8863-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gfx\copier-modifier-icone-8863-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

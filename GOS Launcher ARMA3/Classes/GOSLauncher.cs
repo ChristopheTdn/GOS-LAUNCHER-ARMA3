@@ -25,6 +25,7 @@ namespace GOSLauncherA3
         static public FenetrePrincipale fenetrePrincipale;
         static public System.Windows.Forms.Timer timerSynchro = new System.Windows.Forms.Timer();
         static public ezBuildMission ezbm = null;
+        static public string nomProfilRename;
 
         /*
          *         Config

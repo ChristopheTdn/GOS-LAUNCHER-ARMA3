@@ -826,7 +826,7 @@ namespace GOSLauncherA3
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem == null || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Value.ToString() == "" || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Value.ToString() == "defaut" || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Text.ToString() == (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Text.ToString())
+            if (listBox_ListingProfil.SelectedItem == null || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString() == "" || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString() == "defaut" || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Text.ToString() == (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Text.ToString())
             {
                 var infoBox = MessageBox.Show("Impossible d'effacer ce profil si il est celui par defaut ou celui actif.", "Erreur Suppression profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -834,8 +834,8 @@ namespace GOSLauncherA3
             {
                 try
                 {
-                    File.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + listBox1.SelectedItem.ToString() + ".profil.xml");
-                    File.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + listBox1.SelectedItem.ToString() + ".profilServeur.xml");
+                    File.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + listBox_ListingProfil.SelectedItem.ToString() + ".profil.xml");
+                    File.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + listBox_ListingProfil.SelectedItem.ToString() + ".profilServeur.xml");
                 }
                 catch
                 {
@@ -892,9 +892,9 @@ namespace GOSLauncherA3
         {
             timer1.Start();
             label5.Visible = true;
-            if (listBox1.SelectedItem != null)
+            if (listBox_ListingProfil.SelectedItem != null)
             {
-                string profilChoisis = (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Value.ToString();
+                string profilChoisis = (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString();
                 string text = profilChoisis + ".profil.xml";
                 System.IO.File.WriteAllText(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\config.ini", text);
 
@@ -1497,15 +1497,44 @@ namespace GOSLauncherA3
 
         private void pictureBox31_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem == null || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Value.ToString() == "" || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Value.ToString() == "defaut" || (GOSLauncherCore.fenetrePrincipale.listBox1.SelectedItem as ComboboxItem).Text.ToString() == (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Text.ToString())
+            if (listBox_ListingProfil.SelectedItem == null || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString() == "" || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString() == "defaut" || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Text.ToString() == (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Text.ToString())
             {
                 var infoBox = MessageBox.Show("Impossible de renommer ce profil si il est celui par defaut ou celui actif.", "Erreur renommage profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
+                GOSLauncherCore.nomProfilRename=(GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString();
+                string nomProfilOriginal = GOSLauncherCore.nomProfilRename;
+                Form renameForm = new renameProfil();
+                renameForm.ShowDialog();
+                if (nomProfilOriginal == GOSLauncherCore.nomProfilRename)
+                {
+                    var infoBox = MessageBox.Show("Le nom de profil n a pas été modifié", "Erreur renommage profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    try
+                    {
+                        File.Copy(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + nomProfilOriginal + ".profil.xml", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + GOSLauncherCore.nomProfilRename + ".profil.xml");
+                        File.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + nomProfilOriginal + ".profil.xml");
 
+                        File.Copy(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + nomProfilOriginal + ".profilServeur.xml", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + GOSLauncherCore.nomProfilRename + ".profilServeur.xml");
+                        File.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + nomProfilOriginal + ".profilServeur.xml");
+                    }
+                    catch
+                    {
+                    }
+                    string profilactif = (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Text.ToString();
+                    Interface.initialiseListeProfil();
+                    int compteur = 0;
+                    foreach (ComboboxItem profil in GOSLauncherCore.fenetrePrincipale.comboBox4.Items)
+                    {
+                        if (profil.Text.ToString() == profilactif) { GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = compteur; };
+                        compteur++;
+                    }           
+              }
             }
-        }
+}
 
         private void tabControl3_Selected(object sender, TabControlEventArgs e)
         {
@@ -1558,7 +1587,46 @@ namespace GOSLauncherA3
             }
         }
 
+        private void pictureBox37_Click(object sender, EventArgs e)
+        {
+            if (listBox_ListingProfil.SelectedItem == null || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString() == "" )
+            {
+                var infoBox = MessageBox.Show("ERREUR INTERNE. Impossible de copier ce profil.", "Erreur copie profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                string nomProfilOriginal= (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString();
+                GOSLauncherCore.nomProfilRename = "Copie de " + nomProfilOriginal;
+                Form renameForm = new renameProfil();
+                renameForm.ShowDialog();
+                
+                if (renameForm.DialogResult == DialogResult.Cancel || renameForm.DialogResult == DialogResult.Abort)
+                {
+                    var infoBox = MessageBox.Show("Operation abandonnée", "Erreur copie profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    try
+                    {
+                        File.Copy(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + nomProfilOriginal + ".profil.xml", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\" + GOSLauncherCore.nomProfilRename + ".profil.xml");
+                    }
+                    catch
+                    {
+                        var infoBox = MessageBox.Show("Le profil n a pas été copié. Le nom existe surement deja", "Erreur copie profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+                    }
+                    string profilactif = (GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Text.ToString();
+                    Interface.initialiseListeProfil();
+                    int compteur = 0;
+                    foreach (ComboboxItem profil in GOSLauncherCore.fenetrePrincipale.comboBox4.Items)
+                    {
+                        if (profil.Text.ToString() == profilactif) { GOSLauncherCore.fenetrePrincipale.comboBox4.SelectedIndex = compteur; };
+                        compteur++;
+                    }
+                }
+            }
+
+        }
     }
 }
     
