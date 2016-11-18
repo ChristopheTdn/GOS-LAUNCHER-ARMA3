@@ -1536,11 +1536,7 @@ namespace GOSLauncherA3
             }
 }
 
-        private void tabControl3_Selected(object sender, TabControlEventArgs e)
-        {
-            if (GOSLauncherCore.ezbm == null)
-                GOSLauncherCore.ezbm = new ezBuildMission(label44, label56, label57, pictureBox32, comboBox1, comboBox5, textBox19);
-        }
+
 
         private void button35_Click_1(object sender, EventArgs e)
         {
@@ -1591,7 +1587,7 @@ namespace GOSLauncherA3
         {
             if (listBox_ListingProfil.SelectedItem == null || (GOSLauncherCore.fenetrePrincipale.listBox_ListingProfil.SelectedItem as ComboboxItem).Value.ToString() == "" )
             {
-                var infoBox = MessageBox.Show("ERREUR INTERNE. Impossible de copier ce profil.", "Erreur copie profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                var infoBox = MessageBox.Show("ERREUR INTERNE. Vous devez selectionner un profil à copier.", "Erreur copie profil", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -1625,6 +1621,11 @@ namespace GOSLauncherA3
                     }
                 }
             }
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

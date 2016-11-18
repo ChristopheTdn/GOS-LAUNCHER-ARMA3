@@ -137,15 +137,6 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.Mapping = new System.Windows.Forms.TabPage();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.button35 = new System.Windows.Forms.Button();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.profil = new System.Windows.Forms.TabPage();
             this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
@@ -365,8 +356,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.Mapping.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             this.profil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
@@ -1224,14 +1213,12 @@
             // tabControl3
             // 
             this.tabControl3.Controls.Add(this.progExterne);
-            this.tabControl3.Controls.Add(this.Mapping);
             this.tabControl3.Controls.Add(this.profil);
             this.tabControl3.Controls.Add(this.Langage);
             this.tabControl3.Controls.Add(this.Apropos);
             resources.ApplyResources(this.tabControl3, "tabControl3");
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControl3_Selected);
             // 
             // progExterne
             // 
@@ -1304,65 +1291,6 @@
             this.checkBox12.Cursor = System.Windows.Forms.Cursors.Default;
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // Mapping
-            // 
-            this.Mapping.BackColor = System.Drawing.Color.Gainsboro;
-            this.Mapping.Controls.Add(this.pictureBox32);
-            this.Mapping.Controls.Add(this.textBox19);
-            this.Mapping.Controls.Add(this.label57);
-            this.Mapping.Controls.Add(this.label56);
-            this.Mapping.Controls.Add(this.label44);
-            this.Mapping.Controls.Add(this.button35);
-            this.Mapping.Controls.Add(this.comboBox5);
-            this.Mapping.Controls.Add(this.comboBox1);
-            resources.ApplyResources(this.Mapping, "Mapping");
-            this.Mapping.Name = "Mapping";
-            // 
-            // pictureBox32
-            // 
-            resources.ApplyResources(this.pictureBox32, "pictureBox32");
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.TabStop = false;
-            // 
-            // textBox19
-            // 
-            resources.ApplyResources(this.textBox19, "textBox19");
-            this.textBox19.Name = "textBox19";
-            // 
-            // label57
-            // 
-            resources.ApplyResources(this.label57, "label57");
-            this.label57.Name = "label57";
-            // 
-            // label56
-            // 
-            resources.ApplyResources(this.label56, "label56");
-            this.label56.Name = "label56";
-            // 
-            // label44
-            // 
-            resources.ApplyResources(this.label44, "label44");
-            this.label44.Name = "label44";
-            // 
-            // button35
-            // 
-            resources.ApplyResources(this.button35, "button35");
-            this.button35.Name = "button35";
-            this.button35.UseVisualStyleBackColor = true;
-            this.button35.Click += new System.EventHandler(this.button35_Click_1);
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox5, "comboBox5");
-            this.comboBox5.Name = "comboBox5";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.Name = "comboBox1";
             // 
             // profil
             // 
@@ -2662,9 +2590,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.Mapping.ResumeLayout(false);
-            this.Mapping.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             this.profil.ResumeLayout(false);
             this.profil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
@@ -2989,15 +2914,6 @@
         internal System.Windows.Forms.TextBox textBox_nomMissionOFFICIELLE;
         internal System.Windows.Forms.CheckBox checkBox_ARMA3BattleyeOption;
         internal System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.TabPage Mapping;
-        internal System.Windows.Forms.ComboBox comboBox1;
-        internal System.Windows.Forms.Button button35;
-        internal System.Windows.Forms.ComboBox comboBox5;
-        internal System.Windows.Forms.Label label57;
-        internal System.Windows.Forms.Label label56;
-        internal System.Windows.Forms.Label label44;
-        internal System.Windows.Forms.TextBox textBox19;
-        internal System.Windows.Forms.PictureBox pictureBox32;
         private System.Windows.Forms.TextBox textBox21;
         internal System.Windows.Forms.Button button_ValiderLangage;
         internal System.Windows.Forms.PictureBox pictureBox37;
