@@ -44,7 +44,6 @@
             this.button12 = new System.Windows.Forms.Button();
             this.checkedListBox_Template = new System.Windows.Forms.CheckedListBox();
             this.TEMPLATE2 = new System.Windows.Forms.TabPage();
-            this.textBox21 = new System.Windows.Forms.TextBox();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
@@ -507,20 +506,12 @@
             // TEMPLATE2
             // 
             this.TEMPLATE2.BackColor = System.Drawing.Color.Gainsboro;
-            this.TEMPLATE2.Controls.Add(this.textBox21);
             this.TEMPLATE2.Controls.Add(this.pictureBox33);
             this.TEMPLATE2.Controls.Add(this.button20);
             this.TEMPLATE2.Controls.Add(this.button21);
             this.TEMPLATE2.Controls.Add(this.checkedListBox_Framework);
             resources.ApplyResources(this.TEMPLATE2, "TEMPLATE2");
             this.TEMPLATE2.Name = "TEMPLATE2";
-            // 
-            // textBox21
-            // 
-            this.textBox21.BackColor = System.Drawing.Color.Brown;
-            this.textBox21.ForeColor = System.Drawing.SystemColors.Info;
-            resources.ApplyResources(this.textBox21, "textBox21");
-            this.textBox21.Name = "textBox21";
             // 
             // pictureBox33
             // 
@@ -2551,7 +2542,6 @@
             this.groupBox13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.TEMPLATE2.ResumeLayout(false);
-            this.TEMPLATE2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             this.ISLANDS.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -2914,7 +2904,6 @@
         internal System.Windows.Forms.TextBox textBox_nomMissionOFFICIELLE;
         internal System.Windows.Forms.CheckBox checkBox_ARMA3BattleyeOption;
         internal System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.TextBox textBox21;
         internal System.Windows.Forms.Button button_ValiderLangage;
         internal System.Windows.Forms.PictureBox pictureBox37;
     }
