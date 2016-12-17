@@ -36,8 +36,8 @@
     <SuiteName>Clan GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>343</ApplicationRevision>
-    <ApplicationVersion>1.52.1118.%2a</ApplicationVersion>
+    <ApplicationRevision>344</ApplicationRevision>
+    <ApplicationVersion>1.55.1217.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
