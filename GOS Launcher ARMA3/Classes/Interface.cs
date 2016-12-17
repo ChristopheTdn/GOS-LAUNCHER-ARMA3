@@ -35,6 +35,15 @@ namespace GOSLauncherA3
             GOSLauncherCore.fenetrePrincipale.label31.Text = AfficheVersionProgramme();
             
             // Determine Serveur
+            // Determine presence ARMA 3 64 bit
+            if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\arma3_x64.exe")) {
+                GOSLauncherCore.fenetrePrincipale.checkBox_Arma364bit.Enabled = true;
+            }
+            else
+            {
+                GOSLauncherCore.fenetrePrincipale.checkBox_Arma364bit.Enabled = false;
+                GOSLauncherCore.fenetrePrincipale.checkBox_Arma364bit.Checked = false;
+            }
 
 
             ProgExterne.ValideProgExt();
@@ -139,6 +148,7 @@ namespace GOSLauncherA3
             GOSLauncherCore.fenetrePrincipale.textBox4.Text = "";
             GOSLauncherCore.fenetrePrincipale.textBox7.Text = "";
             GOSLauncherCore.fenetrePrincipale.textBox8.Text = "";
+            GOSLauncherCore.fenetrePrincipale.checkBox_Arma364bit.Checked = false;
 
         }
         static public void genereTabParam()
@@ -212,6 +222,9 @@ namespace GOSLauncherA3
                 if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox_EnableHT.Checked = true; }
                 fichierProfilXML.ReadToFollowing("ARMA3Battleeyes");
                 if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked = true; }
+                fichierProfilXML.ReadToFollowing("ARMA3-64bit");
+                if (fichierProfilXML.ReadString() == "true") { GOSLauncherCore.fenetrePrincipale.checkBox_Arma364bit.Checked = true; }
+
             }
             fichierProfilXML.Close();
         }

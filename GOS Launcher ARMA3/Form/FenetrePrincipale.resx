@@ -2175,6 +2175,39 @@
   <data name="Options.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="checkBox_Arma364bit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_Arma364bit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_Arma364bit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 293</value>
+  </data>
+  <data name="checkBox_Arma364bit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="checkBox_Arma364bit.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="checkBox_Arma364bit.Text" xml:space="preserve">
+    <value>Arma 3 64 Bit</value>
+  </data>
+  <data name="checkBox_Arma364bit.ToolTip" xml:space="preserve">
+    <value>Active Arma 3 64 Bit</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Arma364bit.Name" xml:space="preserve">
+    <value>checkBox_Arma364bit</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Arma364bit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Arma364bit.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Arma364bit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="checkBox_EnableHT.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2203,7 +2236,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;checkBox_EnableHT.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="pictureBox30.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2236,7 +2269,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;pictureBox30.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="pictureBox28.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2269,7 +2302,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;pictureBox28.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="pictureBox26.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2302,7 +2335,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;pictureBox26.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label36.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2335,7 +2368,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label35.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2368,7 +2401,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label34.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2401,7 +2434,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label41.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2436,7 +2469,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;label41.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="checkBox21.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2469,7 +2502,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;checkBox21.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="checkBox6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2499,7 +2532,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;checkBox6.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="comboBox3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>System</value>
@@ -2544,7 +2577,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;comboBox3.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="pictureBox29.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2883,7 +2916,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;pictureBox29.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="trackBar3.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2910,7 +2943,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;trackBar3.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="textBox5.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2937,7 +2970,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="checkBox22.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2967,7 +3000,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;checkBox22.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="textBox6.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2994,7 +3027,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="textBox20.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3021,7 +3054,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;textBox20.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="trackBar2.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3048,7 +3081,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;trackBar2.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="checkBox7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3078,7 +3111,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;checkBox7.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="trackBar1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3105,7 +3138,7 @@ ce que vous faites.</value>
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>261, 6</value>

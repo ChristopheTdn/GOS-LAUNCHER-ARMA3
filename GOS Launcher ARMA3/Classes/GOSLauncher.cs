@@ -313,6 +313,7 @@ namespace GOSLauncherA3
             if (fenetrePrincipale.checkBox3.Checked) { FichierProfilXML.WriteElementString("windowX", fenetrePrincipale.textBox7.Text); FichierProfilXML.WriteElementString("windowY", fenetrePrincipale.textBox8.Text); } else { FichierProfilXML.WriteElementString("windowX", ""); FichierProfilXML.WriteElementString("windowY", ""); }
             if (fenetrePrincipale.checkBox_EnableHT.Checked) { FichierProfilXML.WriteElementString("enableHT", "true"); } else { FichierProfilXML.WriteElementString("enableHT", ""); }
             if (fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked) {FichierProfilXML.WriteElementString("ARMA3Battleeyes", "true"); } else {FichierProfilXML.WriteElementString("ARMA3Battleeyes", ""); }
+            if (fenetrePrincipale.checkBox_Arma364bit.Checked) { FichierProfilXML.WriteElementString("ARMA3-64bit", "true"); } else { FichierProfilXML.WriteElementString("ARMA3-64bit", ""); }
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.Flush(); //vide le buffer
@@ -644,7 +645,8 @@ namespace GOSLauncherA3
                 ProgExterne.lancerFraps(); 
                 ProgExterne.lancerTrackIR();
                 string execGAME = "arma3.exe";
-                 
+                if (fenetrePrincipale.checkBox_Arma364bit.Checked && fenetrePrincipale.checkBox_Arma364bit.Enabled) { execGAME = "arma3_x64.exe"; };
+
                 if (fenetrePrincipale.checkBox_ARMA3BattleyeOption.Checked) { execGAME = "arma3battleye.exe";};
                 // Lancement Jeu
                 reductionFenetreOnLaunch();

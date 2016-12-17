@@ -106,6 +106,7 @@
             this.ctrlListModPrioritaire = new System.Windows.Forms.ListBox();
             this.Options = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox_Arma364bit = new System.Windows.Forms.CheckBox();
             this.checkBox_EnableHT = new System.Windows.Forms.CheckBox();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
@@ -1033,6 +1034,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.checkBox_Arma364bit);
             this.groupBox2.Controls.Add(this.checkBox_EnableHT);
             this.groupBox2.Controls.Add(this.pictureBox30);
             this.groupBox2.Controls.Add(this.pictureBox28);
@@ -1056,6 +1058,13 @@
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            // 
+            // checkBox_Arma364bit
+            // 
+            resources.ApplyResources(this.checkBox_Arma364bit, "checkBox_Arma364bit");
+            this.checkBox_Arma364bit.Name = "checkBox_Arma364bit";
+            this.toolTip1.SetToolTip(this.checkBox_Arma364bit, resources.GetString("checkBox_Arma364bit.ToolTip"));
+            this.checkBox_Arma364bit.UseVisualStyleBackColor = true;
             // 
             // checkBox_EnableHT
             // 
@@ -1301,7 +1310,7 @@
             // 
             // pictureBox37
             // 
-            this.pictureBox37.Image = global::GOSLauncherA3.Properties.Resources.copier_modifier_icone_8863_48;
+            this.pictureBox37.Image = global::GOSLauncherA3.Properties.Resources.dupliquer;
             resources.ApplyResources(this.pictureBox37, "pictureBox37");
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.TabStop = false;
@@ -2906,6 +2915,7 @@
         internal System.Windows.Forms.PictureBox pictureBox31;
         internal System.Windows.Forms.Button button_ValiderLangage;
         internal System.Windows.Forms.PictureBox pictureBox37;
+        internal System.Windows.Forms.CheckBox checkBox_Arma364bit;
     }
 }
 
