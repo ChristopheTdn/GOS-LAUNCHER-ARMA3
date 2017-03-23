@@ -62,7 +62,6 @@ D:\Zone Documents\ToF\Documents\Visual Studio 2013\Projects\FSF-LAUNCHER-ARMA3\F
 D:\Zone Documents\ToF\Documents\Visual Studio 2013\Projects\GOS Launcher ARMA3\GOS Launcher ARMA3\bin\Debug\GOSLauncherA3.exe.config
 D:\Zone Documents\ToF\Documents\Visual Studio 2013\Projects\GOS Launcher ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.exe
 D:\Zone Documents\ToF\Documents\Visual Studio 2013\Projects\GOS Launcher ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.pdb
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\GOSLauncherA3.exe.config
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\mikero\DePbo.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\mikero\ExtractPboDos.exe
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\rsync\cwrsync.cmd
@@ -79,6 +78,7 @@ D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\rsync\rsync.exe
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\rsync\ssh-keygen.exe
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\rsync\ssh.exe
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\GOSLauncherA3.exe.config
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\GOSLauncherA3.exe.manifest
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\GOSLauncherA3.application
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\GOSLauncherA3.exe
@@ -87,8 +87,10 @@ D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\de-DE\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\de\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\el-GR\GOSLauncherA3.resources.dll
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\el\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\en-US\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\es-ES\GOSLauncherA3.resources.dll
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\es\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\fr-FR\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\ru-RU\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOS Launcher ARMA3.csprojResolveAssemblyReference.cache
@@ -101,14 +103,17 @@ D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.langue.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.SplashScreen.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.Properties.Resources.resources
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.renameProfil.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.Dial_Unlock.en.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.Dial_DefautApparence.en.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.de-DE.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.de.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.el-GR.resources
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.el.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.en-US.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.en.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.es-ES.resources
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.es.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.fr-FR.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.ru-RU.resources
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOS Launcher ARMA3.csproj.GenerateResource.Cache
@@ -116,8 +121,10 @@ D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\de-DE\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\de\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\el-GR\GOSLauncherA3.resources.dll
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\el\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\en-US\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\es-ES\GOSLauncherA3.resources.dll
+D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\es\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\fr-FR\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\ru-RU\GOSLauncherA3.resources.dll
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.TrustInfo.xml
@@ -125,10 +132,3 @@ D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.application
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.exe
 D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.pdb
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.el.resources
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.FenetrePrincipale.es.resources
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\el\GOSLauncherA3.resources.dll
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\bin\Debug\es\GOSLauncherA3.resources.dll
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\el\GOSLauncherA3.resources.dll
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\es\GOSLauncherA3.resources.dll
-D:\Zone Documents\ToF\Documents\GitHub\GOS-LAUNCHER-ARMA3\GOS Launcher ARMA3\obj\x86\Debug\GOSLauncherA3.renameProfil.resources

@@ -126,10 +126,6 @@ namespace GOSLauncherA3
                     if (GOSLauncherCore.isGOSValid())
                     {
                         ReinstallTS3TaskForce();
-                        if (!File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\task_force_radio\radio_keys.hpp"))
-                        {
-                            GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\userconfig\task_force_radio\", GOSLauncherCore.cheminARMA3 + @"\userconfig\");
-                        };
                     };
                 }
                 catch
@@ -144,7 +140,7 @@ namespace GOSLauncherA3
         {
             try
             {
-                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\task_force_radio_win64.dll"))  //Si le fichier existe 
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\config\plugins\task_force_radio_win64.dll"))  //Si le fichier existe 
                 {
                     return true;
                 }
@@ -210,9 +206,34 @@ namespace GOSLauncherA3
         {
             try
             {
-                
+                // EFFACE REPERTOIRE PERIMES
+
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\task_force_radio\radio_keys.hpp"))
+                {
+                    Directory.Delete(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\userconfig\task_force_radio\", true);
+                };
+
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\radio-sounds\on.wav"))
+                {
+                    Directory.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\radio-sounds\", true);
+                };
+
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\radio-sounds-old\on.wav"))
+                {
+                    Directory.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\radio-sounds-old\", true);
+                };
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\radio-sounds-new\on.wav"))
+                {
+                    Directory.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\radio-sounds-new\", true);
+                };
+
+                if (File.Exists(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\task_force_radio_win64.dll"))
+                {
+                    File.Delete(GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\plugins\task_force_radio_win64.dll");
+                };
+                //   
                 GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@CLIENT\TeamSpeak3\nouvelleversion\TeamSpeak3\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\");
-                GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\");
+                GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\TeamSpeak 3 Client\plugins\", GOSLauncherCore.cheminARMA3 + @"\userconfig\GOS-LauncherA3\TeamSpeak3\config\");
                 GOSLauncherCore.CopyDir(GOSLauncherCore.cheminARMA3 + @"\@GOS\@TEMPLATE\@task_force_radio\userconfig\task_force_radio\", GOSLauncherCore.cheminARMA3 + @"\userconfig\");
   
                 var infoBox = MessageBox.Show("Le TS3 dédié à TASK FORCE RADIO a été reinstallé dans sa derniere version.", "TS3 reinstallé", MessageBoxButtons.OK, MessageBoxIcon.Information);

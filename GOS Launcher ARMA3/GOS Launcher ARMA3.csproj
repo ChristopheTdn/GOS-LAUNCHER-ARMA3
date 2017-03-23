@@ -36,12 +36,13 @@
     <SuiteName>Clan GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>344</ApplicationRevision>
-    <ApplicationVersion>1.55.1217.%2a</ApplicationVersion>
+    <ApplicationRevision>345</ApplicationRevision>
+    <ApplicationVersion>1.60.0309.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <HockeyAppResourceId>ffc9c51244b942e99189d5708e8d35ec</HockeyAppResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>

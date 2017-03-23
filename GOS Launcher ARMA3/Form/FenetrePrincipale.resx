@@ -6988,16 +6988,16 @@ Maj immediate</value>
     <value>NoControl</value>
   </data>
   <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 238</value>
+    <value>39, 238</value>
   </data>
   <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 13</value>
+    <value>93, 13</value>
   </data>
   <data name="label53.TabIndex" type="System.Int32, mscorlib">
     <value>81</value>
   </data>
   <data name="label53.Text" xml:space="preserve">
-    <value>@TEMPLATE 2 :</value>
+    <value>@FRAMEWORK :</value>
   </data>
   <data name="&gt;&gt;label53.Name" xml:space="preserve">
     <value>label53</value>
